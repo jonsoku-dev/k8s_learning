@@ -2,9 +2,9 @@
 
 k run adapter --image=busybox -o yaml --dry-run -- /bin/sh -c 'while true; do echo "$(date) | $(du -sh ~)" >> /var/logs/diskspace.txt; sleep 5; done;' > adapter.yaml
 
-made yaml and modify it 
- 
-root@10cka-con:~# cat adapter.yaml 
+made yaml and modify it
+
+root@10cka-con:~# cat adapter.yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -38,7 +38,7 @@ spec:
   volumes:
     - name: config-volume
       emptyDir: {}
-    
+
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
@@ -50,22 +50,22 @@ k exec adapter -c transformer -it -- /bin/sh
 # 2 B.13.003-3.Routing Traffic to Pods from Inside and Outside of a Cluster
 k create deploy myapp --image=nginx --port=80 --dry-run -o yaml > myapp.yaml
 
-And change replicas from 1 to 2 
+And change replicas from 1 to 2
 
-apply 
+apply
 
 k expose deployment myapp --port=80
 
-k exec busybox -it -- /bin/sh 
-wget clusterIP -O cl.index 
+k exec busybox -it -- /bin/sh
+wget clusterIP -O cl.index
 
 k edit svc myapp
-wget 192.168.1.111:31292 -O np.index
+wget 192.168.2.111:31292 -O np.index
 
 
 # 3 B.13.003-4.Defining a Pod's Readiness and Liveness Probe
 k run hello --image=bonomat/nodejs-hello-world --port=3000 -o yaml --dry-run > hello.yaml
-hello.yaml 
+hello.yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -102,7 +102,7 @@ status: {}
 kubectl exec hello -it -- /bin/sh
 # curl localhost:3000
 
-root@10cka-con:~# k logs hello 
+root@10cka-con:~# k logs hello
 Magic happens on port 3000
 
 

@@ -1,7 +1,7 @@
 ~/_Lecture_k8s_learning.kit/ch9/9.6/get_helm.sh
 
 helm repo add edu https://k8s-edu.github.io/helm-charts
-helm repo update 
+helm repo update
 helm search repo
 
 k get po -n metallb-system
@@ -36,9 +36,9 @@ k get pv,pvc
 k get storageclasses.storage.k8s.io
 
 helm install nfs-provisioner edu/nfs-subdir-external-provisioner \
-    --set nfs.server=192.168.1.10 \
+    --set nfs.server=192.168.2.10 \
     --set nfs.path=/nfs_shared/dynamic-vol \
-    --set storageClass.name=managed-nfs-storage     
+    --set storageClass.name=managed-nfs-storage
 
 k get pv,pvc
 k get storageclasses.storage.k8s.io
@@ -50,7 +50,7 @@ k apply -f ~/_Lecture_k8s_learning.kit/ch9/9.6/deploy-w-pvc-svc.yaml
 k delete -f ~/_Lecture_k8s_learning.kit/ch9/9.6/deploy-w-pvc-svc.yaml
 
 ####
-helm uninstall metallb 
+helm uninstall metallb
 
 helm install metallb edu/metallb \
      --create-namespace \

@@ -1,30 +1,30 @@
 #!/usr/bin/env bash
 
-# install ansible 
+# install ansible
 apt-get install ansible=2.9.6+dfsg-1 -y
-apt-get sshpass -y 
+apt-get sshpass -y
 rm -rf ~/.ssh
-bash exec 
-sleep 3 
+bash exec
+sleep 3
 
-# setup ansible hosts 
+# setup ansible hosts
 cat <<EOF > /etc/ansible/hosts
 [Master]
-192.168.1.10
+192.168.2.10
 
 [Workers]
-192.168.1.[101:103]
+192.168.2.[101:103]
 EOF
 
-# ansible alias 
+# ansible alias
 echo "alias ans=ansible"          >> ~/.bashrc
 echo "alias anp=ansible-playbook" >> ~/.bashrc
 
-#auto_pass to ansible_nodes 
-##make a directory 
+#auto_pass to ansible_nodes
+##make a directory
 mkdir ~/.ssh
 
-##Read hosts from file 
+##Read hosts from file
 readarray hosts < /etc/hosts
 
 ###1.known_hosts##
@@ -37,7 +37,7 @@ fi
 ###2.authorized_keys
 if [ ! -f ~/.ssh/id_rsa.pub ]; then
   ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ''
-    for host in ${hosts[@]}; do 
+    for host in ${hosts[@]}; do
        sshpass -p vagrant ssh-copy-id -f ${host}
     done
 fi

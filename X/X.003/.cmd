@@ -1,25 +1,25 @@
 # NetworkPolicy
 
-run before starting 
+run before starting
 run.sh (create ns and db in sensitive ns)
 
-root@10cka-con:~# cat deny-egress.yaml 
+root@10cka-con:~# cat deny-egress.yaml
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
   name: deny-egress
-  namespace: sensitive 
+  namespace: sensitive
 spec:
   podSelector: {}
   policyTypes:
   - Egress
 
-root@10cka-con:~# cat allow-db.yaml 
+root@10cka-con:~# cat allow-db.yaml
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: allow-db 
-  namespace: sensitive 
+  name: allow-db
+  namespace: sensitive
 spec:
   podSelector:
     matchLabels:
@@ -37,7 +37,7 @@ create net-tools in sensitivie namespace (2 types / with role whether or not)
 # API Protection
 root@10cka-con:~# k create sa cks-sa
 serviceaccount/cks-sa created
-root@10cka-con:~# cat cks-sa.yaml 
+root@10cka-con:~# cat cks-sa.yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -60,14 +60,14 @@ status: {}
 # AppArmor
 
 apparmor setup on bk8s-w1
-root@bk8s-w1:/etc/apparmor.d# apparmor_parser deny-write 
-root@bk8s-w1:/etc/apparmor.d# aa-status 
+root@bk8s-w1:/etc/apparmor.d# apparmor_parser deny-write
+root@bk8s-w1:/etc/apparmor.d# aa-status
 
-root@10cka-con:~# cat aa-sleepy.yaml 
+root@10cka-con:~# cat aa-sleepy.yaml
 apiVersion: v1
 kind: Pod
 metadata:
-  name: aa-sleepy 
+  name: aa-sleepy
   annotations:
     # Tell Kubernetes to apply the AppArmor profile "k8s-apparmor-example-deny-write".
     # Note that this is ignored if the Kubernetes node is not running version 1.4 or greater.
@@ -83,7 +83,7 @@ k create sa psp-sa
 serviceaccount/psp-sa created
 
 ssh hk8s-m
-vi /etc/kubernetes/manifests/kube-apiserver.yaml 
+vi /etc/kubernetes/manifests/kube-apiserver.yaml
 <snipped>
   - --enable-admission-plugins=NodeRestriction,PodSecurityPolicy << add PodSecurityPolicy
 <snipped>
@@ -120,13 +120,13 @@ Test >> to deploy each of deployments (hostpath-varlog.yaml and hostpath-tmp.yam
 
 
 # ImagePolicyWebhook
-run before starting 
+run before starting
 run.sh (make admission dir and transfer files)
 
 ssh wk8s-m
-check ing ing all of files 
+check ing ing all of files
 
-vi /etc/kubernetes/manifests/kube-apiserver.yaml 
+vi /etc/kubernetes/manifests/kube-apiserver.yaml
 <snipped>
     - --admission-control-config-file=/etc/kubernetes/admission/admission.yaml
     - --enable-admission-plugins=NodeRestriction,ImagePolicyWebhook << add ImagePolicyWebhook
@@ -142,26 +142,26 @@ vi /etc/kubernetes/manifests/kube-apiserver.yaml
 <snipped>
 
 Deploy nginx for testing purpose
-k run nginx --image=nginx 
+k run nginx --image=nginx
 Error from server (Forbidden): pods "nginx" is forbidden: Post "https://ext-svc:8080/img-validation?timeout=30s": dial tcp: lookup ext-svc on 10.0.2.3:53: no such host
 
-# API Audit log  
+# API Audit log
 
-searching audit policy 
+searching audit policy
 
 ssh bk8s-m
 
 mkdir /etc/kubernetes/audit
 
 
-vi /etc/kubernetes/manifests/kube-apiserver.yaml 
+vi /etc/kubernetes/manifests/kube-apiserver.yaml
 <snipped>
     - --audit-policy-file=/etc/kubernetes/audit/policy.yaml
     - --audit-log-path=/etc/kubernetes/audit/audit.log
 <snipped>
     - mountPath: /etc/kubernetes/audit
       name: audit
-      readOnly: true << it should remove 
+      readOnly: true << it should remove
 <snipped>
   - hostPath:
       path: /etc/kubernetes/audit
@@ -181,7 +181,7 @@ rules:
   - level: None
 
 root@bk8s-m:/etc/kubernetes/audit# tail audit.log
-{"kind":"Event","apiVersion":"audit.k8s.io/v1","level":"Metadata","auditID":"772a92e7-2261-45d5-83aa-a6a54380f8b2","stage":"RequestReceived","requestURI":"/api/v1/namespaces/kube-system/pods/kube-scheduler-bk8s-m/status","verb":"patch","user":{"username":"system:node:bk8s-m","groups":["system:nodes","system:authenticated"]},"sourceIPs":["192.168.1.110"],"userAgent":"Go-http-client/2.0","objectRef":{"resource":"pods","namespace":"kube-system","name":"kube-scheduler-bk8s-m","apiVersion":"v1","subresource":"status"},"requestReceivedTimestamp":"2022-01-10T08:08:25.214688Z","stageTimestamp":"2022-01-10T08:08:25.214688Z"}
-{"kind":"Event","apiVersion":"audit.k8s.io/v1","level":"Metadata","auditID":"772a92e7-2261-45d5-83aa-a6a54380f8b2","stage":"ResponseComplete","requestURI":"/api/v1/namespaces/kube-system/pods/kube-scheduler-bk8s-m/status","verb":"patch","user":{"username":"system:node:bk8s-m","groups":["system:nodes","system:authenticated"]},"sourceIPs":["192.168.1.110"],"userAgent":"Go-http-client/2.0","objectRef":{"resource":"pods","namespace":"kube-system","name":"kube-scheduler-bk8s-m","apiVersion":"v1","subresource":"status"},"responseStatus":{"metadata":{},"code":200},"requestReceivedTimestamp":"2022-01-10T08:08:25.214688Z","stageTimestamp":"2022-01-10T08:08:25.237741Z","annotations":{"authorization.k8s.io/decision":"allow","authorization.k8s.io/reason":""}}
+{"kind":"Event","apiVersion":"audit.k8s.io/v1","level":"Metadata","auditID":"772a92e7-2261-45d5-83aa-a6a54380f8b2","stage":"RequestReceived","requestURI":"/api/v1/namespaces/kube-system/pods/kube-scheduler-bk8s-m/status","verb":"patch","user":{"username":"system:node:bk8s-m","groups":["system:nodes","system:authenticated"]},"sourceIPs":["192.168.2.110"],"userAgent":"Go-http-client/2.0","objectRef":{"resource":"pods","namespace":"kube-system","name":"kube-scheduler-bk8s-m","apiVersion":"v1","subresource":"status"},"requestReceivedTimestamp":"2022-01-10T08:08:25.214688Z","stageTimestamp":"2022-01-10T08:08:25.214688Z"}
+{"kind":"Event","apiVersion":"audit.k8s.io/v1","level":"Metadata","auditID":"772a92e7-2261-45d5-83aa-a6a54380f8b2","stage":"ResponseComplete","requestURI":"/api/v1/namespaces/kube-system/pods/kube-scheduler-bk8s-m/status","verb":"patch","user":{"username":"system:node:bk8s-m","groups":["system:nodes","system:authenticated"]},"sourceIPs":["192.168.2.110"],"userAgent":"Go-http-client/2.0","objectRef":{"resource":"pods","namespace":"kube-system","name":"kube-scheduler-bk8s-m","apiVersion":"v1","subresource":"status"},"responseStatus":{"metadata":{},"code":200},"requestReceivedTimestamp":"2022-01-10T08:08:25.214688Z","stageTimestamp":"2022-01-10T08:08:25.237741Z","annotations":{"authorization.k8s.io/decision":"allow","authorization.k8s.io/reason":""}}
 
 

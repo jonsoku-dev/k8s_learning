@@ -4,12 +4,12 @@ k get po,svc -n monitoring
 
 ./0-2.pre-custom-metrics.sh
 
-kubectl api-versions 
-./1.custom-metrics-w-pa.sh 
+kubectl api-versions
+./1.custom-metrics-w-pa.sh
 # check custom.metrics
-kubectl api-versions 
+kubectl api-versions
 
-# but pod could not deploy properly 
+# but pod could not deploy properly
 k get po -n custom-metrics
 k describe po -n custom-metrics
 
@@ -29,11 +29,11 @@ k delete po -n custom-metrics -l app=custom-metrics-apiserver
 kubectl get --raw "/apis/custom.metrics.k8s.io/v1beta2/" | jq
 kubectl get --raw "/apis/custom.metrics.k8s.io/v1beta2/namespaces/default/pods/*/nginx_http_requests_per_second" | jq
 
-k apply -f 5.hpa-custom-metrics.yaml 
-k get hpa 
+k apply -f 5.hpa-custom-metrics.yaml
+k get hpa
 
-./6.curl-get.sh 192.168.1.12
-# from other terminal 
+./6.curl-get.sh 192.168.2.12
+# from other terminal
 watch kubectl get hpa,deploy
 
 

@@ -4,7 +4,7 @@
 mkdir ~/.kube
 
 # copy kubeconfig by sshpass
-sshpass -p 'vagrant' scp -o StrictHostKeyChecking=no root@192.168.1.10:/etc/kubernetes/admin.conf ~/.kube/config 
+sshpass -p 'vagrant' scp -o StrictHostKeyChecking=no root@192.168.2.10:/etc/kubernetes/admin.conf ~/.kube/config
 
 # git clone k8s-code
 git clone https://github.com/sysnet4admin/_Lecture_k8s_learning.kit.git $HOME/_Lecture_k8s_learning.kit

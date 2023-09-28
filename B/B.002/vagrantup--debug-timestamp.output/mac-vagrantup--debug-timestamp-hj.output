@@ -313,10 +313,10 @@
 2023-06-21 13:14:52 [ INFO] Loading configuration in order: [:home, :root, "880_machine_m-k8s-1.24.9"]
 2023-06-21 13:14:52 [DEBUG] Loading from: root (cache)
 2023-06-21 13:14:52 [DEBUG] Loading from: 880_machine_m-k8s-1.24.9 (evaluating)
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
 2023-06-21 13:14:52 [DEBUG] Configuration loaded successfully, finalizing and returning
 2023-06-21 13:14:52 [DEBUG] finalizing
 2023-06-21 13:14:52 [ INFO] config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
@@ -352,9 +352,9 @@
 2023-06-21 13:14:52 [ WARN] Unknown config sources: ["880_machine_m-k8s-1.24.9", :"1040_sysnet4admin/CentOS-k8s_virtualbox"]
 2023-06-21 13:14:52 [DEBUG] Loading from: root (cache)
 2023-06-21 13:14:52 [DEBUG] Loading from: 880_machine_w1-k8s-1.24.9 (evaluating)
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
 2023-06-21 13:14:52 [DEBUG] Configuration loaded successfully, finalizing and returning
 2023-06-21 13:14:52 [DEBUG] finalizing
 2023-06-21 13:14:52 [ INFO] config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
@@ -379,9 +379,9 @@
 2023-06-21 13:14:52 [ WARN] Unknown config sources: ["880_machine_m-k8s-1.24.9", :"1040_sysnet4admin/CentOS-k8s_virtualbox", "880_machine_w1-k8s-1.24.9"]
 2023-06-21 13:14:52 [DEBUG] Loading from: root (cache)
 2023-06-21 13:14:52 [DEBUG] Loading from: 880_machine_w2-k8s-1.24.9 (evaluating)
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
 2023-06-21 13:14:52 [DEBUG] Configuration loaded successfully, finalizing and returning
 2023-06-21 13:14:52 [DEBUG] finalizing
 2023-06-21 13:14:52 [ INFO] config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
@@ -406,9 +406,9 @@
 2023-06-21 13:14:52 [ WARN] Unknown config sources: ["880_machine_m-k8s-1.24.9", :"1040_sysnet4admin/CentOS-k8s_virtualbox", "880_machine_w1-k8s-1.24.9", "880_machine_w2-k8s-1.24.9"]
 2023-06-21 13:14:52 [DEBUG] Loading from: root (cache)
 2023-06-21 13:14:52 [DEBUG] Loading from: 880_machine_w3-k8s-1.24.9 (evaluating)
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
-2023-06-21 13:14:52 [DEBUG] Provisioner defined: 
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
+2023-06-21 13:14:52 [DEBUG] Provisioner defined:
 2023-06-21 13:14:52 [DEBUG] Configuration loaded successfully, finalizing and returning
 2023-06-21 13:14:52 [DEBUG] finalizing
 2023-06-21 13:14:52 [ INFO] config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
@@ -740,8 +740,8 @@
 2023-06-21 13:14:53 [DEBUG] Configuration loaded successfully, finalizing and returning
 2023-06-21 13:14:53 [DEBUG] finalizing
 2023-06-21 13:14:53 [ INFO] config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
-2023-06-21 13:14:53 [ WARN] Failed to locate sysnet4admin/CentOS-k8s with version 
-2023-06-21 13:14:53 [ WARN] Performing lookup with initial values sysnet4admin/CentOS-k8s with version 
+2023-06-21 13:14:53 [ WARN] Failed to locate sysnet4admin/CentOS-k8s with version
+2023-06-21 13:14:53 [ WARN] Performing lookup with initial values sysnet4admin/CentOS-k8s with version
 2023-06-21 13:14:53 [ INFO] VBoxManage path: VBoxManage
 2023-06-21 13:14:53 [DEBUG] Finding driver for VirtualBox version: 6.1.40
 2023-06-21 13:14:53 [ INFO] Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_6_1
@@ -761,8 +761,8 @@
 2023-06-21 13:14:53 [DEBUG] Configuration loaded successfully, finalizing and returning
 2023-06-21 13:14:53 [DEBUG] finalizing
 2023-06-21 13:14:53 [ INFO] config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
-2023-06-21 13:14:53 [ WARN] Failed to locate sysnet4admin/CentOS-k8s with version 
-2023-06-21 13:14:53 [ WARN] Performing lookup with initial values sysnet4admin/CentOS-k8s with version 
+2023-06-21 13:14:53 [ WARN] Failed to locate sysnet4admin/CentOS-k8s with version
+2023-06-21 13:14:53 [ WARN] Performing lookup with initial values sysnet4admin/CentOS-k8s with version
 2023-06-21 13:14:53 [ INFO] VBoxManage path: VBoxManage
 2023-06-21 13:14:53 [DEBUG] Finding driver for VirtualBox version: 6.1.40
 2023-06-21 13:14:53 [ INFO] Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_6_1
@@ -782,8 +782,8 @@
 2023-06-21 13:14:53 [DEBUG] Configuration loaded successfully, finalizing and returning
 2023-06-21 13:14:53 [DEBUG] finalizing
 2023-06-21 13:14:53 [ INFO] config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
-2023-06-21 13:14:53 [ WARN] Failed to locate sysnet4admin/CentOS-k8s with version 
-2023-06-21 13:14:53 [ WARN] Performing lookup with initial values sysnet4admin/CentOS-k8s with version 
+2023-06-21 13:14:53 [ WARN] Failed to locate sysnet4admin/CentOS-k8s with version
+2023-06-21 13:14:53 [ WARN] Performing lookup with initial values sysnet4admin/CentOS-k8s with version
 2023-06-21 13:14:53 [ INFO] VBoxManage path: VBoxManage
 2023-06-21 13:14:53 [DEBUG] Finding driver for VirtualBox version: 6.1.40
 2023-06-21 13:14:53 [ INFO] Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_6_1
@@ -803,8 +803,8 @@
 2023-06-21 13:14:53 [DEBUG] Configuration loaded successfully, finalizing and returning
 2023-06-21 13:14:53 [DEBUG] finalizing
 2023-06-21 13:14:53 [ INFO] config class lookup for provider :virtualbox gave us base class: VagrantPlugins::ProviderVirtualBox::Config
-2023-06-21 13:14:53 [ WARN] Failed to locate sysnet4admin/CentOS-k8s with version 
-2023-06-21 13:14:53 [ WARN] Performing lookup with initial values sysnet4admin/CentOS-k8s with version 
+2023-06-21 13:14:53 [ WARN] Failed to locate sysnet4admin/CentOS-k8s with version
+2023-06-21 13:14:53 [ WARN] Performing lookup with initial values sysnet4admin/CentOS-k8s with version
 2023-06-21 13:14:53 [ INFO] VBoxManage path: VBoxManage
 2023-06-21 13:14:53 [DEBUG] Finding driver for VirtualBox version: 6.1.40
 2023-06-21 13:14:53 [ INFO] Using VirtualBox driver: VagrantPlugins::ProviderVirtualBox::Driver::Version_6_1
@@ -908,14 +908,22 @@ Bringing machine 'w3-k8s-1.24.9' up with 'virtualbox' provider...
 2023-06-21 13:14:53 [DEBUG] Command not in installer, not touching env vars.
 2023-06-21 13:14:53 [ INFO] Command not in installer, restoring original environment...
 2023-06-21 13:14:53 [DEBUG] Selecting on IO
-2023-06-21 13:14:55 [ INFO] info: [K
-[K2023-06-21 13:14:55 [ INFO] info: Progress: 30%
-Progress: 30%2023-06-21 13:14:57 [ INFO] info: [K
-[K2023-06-21 13:14:57 [ INFO] info: Progress: 50%
-Progress: 50%2023-06-21 13:14:58 [ INFO] info: [K
-[K2023-06-21 13:14:58 [ INFO] info: Progress: 70%
-Progress: 70%2023-06-21 13:14:59 [ INFO] info: [K
-[K2023-06-21 13:14:59 [ INFO] info: Progress: 90%
+2023-06-21 13:14:55 [ INFO] info:
+[K
+
+[K2023-06-21 13:14:55 [ INFO] info: Progress: 30%
+Progress: 30%2023-06-21 13:14:57 [ INFO] info:
+[K
+
+[K2023-06-21 13:14:57 [ INFO] info: Progress: 50%
+Progress: 50%2023-06-21 13:14:58 [ INFO] info:
+[K
+
+[K2023-06-21 13:14:58 [ INFO] info: Progress: 70%
+Progress: 70%2023-06-21 13:14:59 [ INFO] info:
+[K
+
+[K2023-06-21 13:14:59 [ INFO] info: Progress: 90%
 Progress: 90%2023-06-21 13:15:00 [DEBUG] Waiting for process to exit. Remaining to timeout: 31993
 2023-06-21 13:15:00 [DEBUG] Exit status: 0
 2023-06-21 13:15:00 [ INFO] Starting process: ["/usr/local/bin/VBoxManage", "list", "vms"]
@@ -946,8 +954,10 @@ Progress: 90%2023-06-21 13:15:00 [DEBUG] Waiting for process to exit. Remaining 
 2023-06-21 13:15:01 [DEBUG] Selecting on IO
 2023-06-21 13:15:01 [DEBUG] Waiting for process to exit. Remaining to timeout: 32000
 2023-06-21 13:15:01 [DEBUG] Exit status: 0
-2023-06-21 13:15:01 [ INFO] info: [K
-[K2023-06-21 13:15:01 [ INFO] Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::DiscardState:0x000000010aa78310>
+2023-06-21 13:15:01 [ INFO] info:
+[K
+
+[K2023-06-21 13:15:01 [ INFO] Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::DiscardState:0x000000010aa78310>
 2023-06-21 13:15:01 [ INFO] Starting process: ["/usr/local/bin/VBoxManage", "showvminfo", "34344efe-293d-43ac-9581-982f6e10b387", "--machinereadable"]
 2023-06-21 13:15:01 [DEBUG] Command not in installer, not touching env vars.
 2023-06-21 13:15:01 [ INFO] Command not in installer, restoring original environment...
@@ -998,7 +1008,7 @@ Progress: 90%2023-06-21 13:15:00 [DEBUG] Waiting for process to exit. Remaining 
 2023-06-21 13:15:01 [DEBUG] No authentication token in environment or /Users/mz01-hj/.vagrant.d/data/vagrant_login_token
 2023-06-21 13:15:01 [DEBUG] No authentication token in environment or /Users/mz01-hj/.vagrant.d/data/vagrant_login_token
 2023-06-21 13:15:01 [ INFO] Calling OUT action: #<VagrantPlugins::CloudCommand::AddDownloaderAuthentication:0x000000010a3a32d8>
-2023-06-21 13:15:01 [ INFO] Downloader starting download: 
+2023-06-21 13:15:01 [ INFO] Downloader starting download:
 2023-06-21 13:15:01 [ INFO]   -- Source: https://vagrantcloud.com/sysnet4admin/CentOS-k8s
 2023-06-21 13:15:01 [ INFO]   -- Destination: /var/folders/57/629sgzyn5wng9wyrwry2325m0000gn/T/vagrant-load-metadata20230621-22463-r5lk7b
 2023-06-21 13:15:01 [ INFO] Starting process: ["/opt/vagrant/embedded/bin/curl", "-q", "--fail", "--location", "--max-redirs", "10", "--verbose", "--user-agent", "Vagrant/2.3.6 (+https://www.vagrantup.com; ruby3.1.4)", "-H", "Accept: application/json", "--output", "/var/folders/57/629sgzyn5wng9wyrwry2325m0000gn/T/vagrant-load-metadata20230621-22463-r5lk7b", "https://vagrantcloud.com/sysnet4admin/CentOS-k8s"]
@@ -1549,8 +1559,8 @@ Progress: 90%2023-06-21 13:15:00 [DEBUG] Waiting for process to exit. Remaining 
 2023-06-21 13:15:08 [ INFO] Determining network adapters required for high-level configuration...
 2023-06-21 13:15:08 [ INFO]  -- Slot 2: hostonly
 2023-06-21 13:15:08 [ INFO] Determining adapters and compiling network configuration...
-2023-06-21 13:15:08 [ INFO] Network slot 1. Type: nat.
-2023-06-21 13:15:08 [DEBUG] Normalized configuration: {:auto_config=>false, :adapter=>1}
+2023-06-21 13:15:08 [ INFO] Network slot 1. Type: nat.192.168.2.192.168.2.
+2023-06-21 13:15:08 [DEBUG] Normalized configuration: {:auto_config=>192.168.2.apter=>1}
 2023-06-21 13:15:08 [DEBUG] Adapter configuration: {:adapter=>1, :type=>:nat, :nic_type=>nil}
 2023-06-21 13:15:08 [ INFO] Network slot 2. Type: hostonly.
 2023-06-21 13:15:08 [ INFO] Starting process: ["/usr/local/bin/VBoxManage", "list", "bridgedifs"]
@@ -7100,8 +7110,8 @@ D, [2023-06-21T13:15:49.520284 #22463] DEBUG -- net.ssh.transport.algorithms[ed1
 * hmac_server: hmac-sha2-512-etm@openssh.com
 * compression_client: none
 * compression_server: none
-* language_client: 
-* language_server: 
+* language_client:
+* language_server:
 D, [2023-06-21T13:15:49.520317 #22463] DEBUG -- net.ssh.transport.algorithms[ed1c]: exchanging keys
 D, [2023-06-21T13:15:49.528750 #22463] DEBUG -- socket[ed30]: queueing packet nr 1 type 30 len 148
 D, [2023-06-21T13:15:49.528825 #22463] DEBUG -- socket[ed30]: sent 152 bytes
@@ -7173,13 +7183,13 @@ D, [2023-06-21T13:15:49.601028 #22463] DEBUG -- net.ssh.authentication.methods.p
 2023-06-21 13:15:50 [DEBUG] Exit status: 0
 2023-06-21 13:15:50 [DEBUG]   - [1, "ssh", 60010, 22, ""]
 2023-06-21 13:15:50 [DEBUG] Checking key permissions: /Users/mz01-hj/.vagrant.d/insecure_private_key
-2023-06-21 13:15:50 [ INFO] detail: 
+2023-06-21 13:15:50 [ INFO] detail:
 Vagrant insecure key detected. Vagrant will automatically replace
 this with a newly generated keypair for better security.
-2023-06-21 13:15:50 [ INFO] detail:     m-k8s-1.24.9: 
+2023-06-21 13:15:50 [ INFO] detail:     m-k8s-1.24.9:
     m-k8s-1.24.9: Vagrant insecure key detected. Vagrant will automatically replace
     m-k8s-1.24.9: this with a newly generated keypair for better security.
-    m-k8s-1.24.9: 
+    m-k8s-1.24.9:
     m-k8s-1.24.9: Vagrant insecure key detected. Vagrant will automatically replace
     m-k8s-1.24.9: this with a newly generated keypair for better security.
 2023-06-21 13:15:50 [DEBUG] Checking whether SSH is ready...
@@ -7245,10 +7255,10 @@ exit 1
 2023-06-21 13:15:51 [DEBUG] Waiting for process to exit. Remaining to timeout: 32000
 2023-06-21 13:15:51 [DEBUG] Exit status: 0
 2023-06-21 13:15:51 [DEBUG] stderr: 41e57d38-b4f7-4e46-9c38-13873d338b86-vagrant-ssh
-2023-06-21 13:15:51 [DEBUG] stderr: cat: 
+2023-06-21 13:15:51 [DEBUG] stderr: cat:
 2023-06-21 13:15:51 [DEBUG] stderr: /etc/pld-release
 2023-06-21 13:15:51 [DEBUG] stderr: : No such file or directory
-2023-06-21 13:15:51 [DEBUG] stderr: 
+2023-06-21 13:15:51 [DEBUG] stderr:
 
 2023-06-21 13:15:51 [DEBUG] Exit status: 1
 2023-06-21 13:15:51 [DEBUG] Trying: amazon
@@ -7305,11 +7315,11 @@ exit 1
 2023-06-21 13:15:51 [DEBUG] Checking in: linux
 2023-06-21 13:15:51 [DEBUG] Found cap: remove_public_key in linux
 2023-06-21 13:15:51 [ INFO] Inserting key to avoid password: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDy+fLu8bhSz/e6WJdLjRtqBQHa1SirfQx/zjGRGmotlIpi/5BurhVeGgWIb53vi0uJ1T78+iNsAlSHvVgD7LfTux7u4ru159w9ZbYs3uresYznd1GOm6HiFki4exkafMBcnd+0dk+VIsa2V/B/NJ8YRvbPu07LGl42YaXdXaeOnJtZjJhJy4TE3bmQQDyksXLlJp14/vArtS6zye3NtGgSkr3Z0O/bkOte+ak4CBWAHszUqBsb425K0F9jpTSqtaNh5b/CmZMYQZw/cs3XiIiz8rkKQiEbkDp0Wz4Klwnj6o5Y5V0qWA9FyMRYRGWNJMlugSzqMyoyiql3rDZND3h vagrant
-2023-06-21 13:15:51 [ INFO] detail: 
+2023-06-21 13:15:51 [ INFO] detail:
 Inserting generated public key within guest...
-2023-06-21 13:15:51 [ INFO] detail:     m-k8s-1.24.9: 
+2023-06-21 13:15:51 [ INFO] detail:     m-k8s-1.24.9:
     m-k8s-1.24.9: Inserting generated public key within guest...
-    m-k8s-1.24.9: 
+    m-k8s-1.24.9:
     m-k8s-1.24.9: Inserting generated public key within guest...
 2023-06-21 13:15:51 [DEBUG] Checking whether SSH is ready...
 2023-06-21 13:15:51 [DEBUG] Re-using SSH connection.
@@ -7442,8 +7452,8 @@ D, [2023-06-21T13:15:53.000279 #22463] DEBUG -- net.ssh.transport.algorithms[f19
 * hmac_server: hmac-sha2-512-etm@openssh.com
 * compression_client: none
 * compression_server: none
-* language_client: 
-* language_server: 
+* language_client:
+* language_server:
 D, [2023-06-21T13:15:53.000296 #22463] DEBUG -- net.ssh.transport.algorithms[f190]: exchanging keys
 D, [2023-06-21T13:15:53.003402 #22463] DEBUG -- socket[f1a4]: queueing packet nr 1 type 30 len 148
 D, [2023-06-21T13:15:53.003458 #22463] DEBUG -- socket[f1a4]: sent 152 bytes
@@ -7536,7 +7546,7 @@ VirtualBox Version: 6.1
     m-k8s-1.24.9: shared folder errors, please make sure the guest additions within the
     m-k8s-1.24.9: virtual machine match the version of VirtualBox you have installed on
     m-k8s-1.24.9: your host and reload your VM.
-    m-k8s-1.24.9: 
+    m-k8s-1.24.9:
     m-k8s-1.24.9: Guest Additions Version: 5.2.12
     m-k8s-1.24.9: VirtualBox Version: 6.1
     m-k8s-1.24.9: The guest additions on this VM do not match the installed version of
@@ -7545,7 +7555,7 @@ VirtualBox Version: 6.1
     m-k8s-1.24.9: shared folder errors, please make sure the guest additions within the
     m-k8s-1.24.9: virtual machine match the version of VirtualBox you have installed on
     m-k8s-1.24.9: your host and reload your VM.
-    m-k8s-1.24.9: 
+    m-k8s-1.24.9:
     m-k8s-1.24.9: Guest Additions Version: 5.2.12
     m-k8s-1.24.9: VirtualBox Version: 6.1
 2023-06-21 13:15:54 [ INFO] Calling IN action: #<Proc:0x000000010b0d2be8 /opt/vagrant/embedded/gems/gems/vagrant-2.3.6/lib/vagrant/action/warden.rb:126 (lambda)>
@@ -7654,7 +7664,7 @@ grep -w "127.0.${i}.1" /etc/hosts || {
 2023-06-21 13:15:56 [ INFO] info: ==> m-k8s-1.24.9: Configuring and enabling network interfaces...
 ==> m-k8s-1.24.9: Configuring and enabling network interfaces...
 2023-06-21 13:15:56 [DEBUG] Checking whether SSH is ready...
-2023-06-21 13:15:56 [DEBUG] Re-using SSH connection.
+2023-06-21 13:15:56 [DEBUG] Re-using SSH connection.192.168.2.192.168.2.
 2023-06-21 13:15:56 [ INFO] SSH is ready!
 2023-06-21 13:15:56 [DEBUG] Re-using SSH connection.
 2023-06-21 13:15:56 [ INFO] Execute:  (sudo=false)
@@ -7970,15 +7980,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:16:20 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:16:20 [ INFO] detail:     m-k8s-1.24.9: --> Finished Dependency Resolution
     m-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:16:21 [ INFO] detail: 
-2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:21 [ INFO] detail:
+2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:21 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: Dependencies Resolved
     m-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:16:21 [ INFO] detail: 
-2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:21 [ INFO] detail:
+2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:21 [ INFO] detail: ================================================================================
 2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: ================================================================================
     m-k8s-1.24.9: ================================================================================
@@ -7994,9 +8004,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:16:21 [ INFO] detail:  epel-release           noarch           7-11            extras            15 k
 2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9:  epel-release           noarch           7-11            extras            15 k
     m-k8s-1.24.9:  epel-release           noarch           7-11            extras            15 k
-2023-06-21 13:16:21 [ INFO] detail: 
-2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:21 [ INFO] detail:
+2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:21 [ INFO] detail: Transaction Summary
 2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: Transaction Summary
     m-k8s-1.24.9: Transaction Summary
@@ -8006,9 +8016,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:16:21 [ INFO] detail: Install  1 Package
 2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: Install  1 Package
     m-k8s-1.24.9: Install  1 Package
-2023-06-21 13:16:21 [ INFO] detail: 
-2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:21 [ INFO] detail:
+2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:21 [ INFO] detail: Total download size: 15 k
 2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: Total download size: 15 k
     m-k8s-1.24.9: Total download size: 15 k
@@ -8036,18 +8046,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:16:21 [ INFO] detail:   Verifying  : epel-release-7-11.noarch                                     1/1
 2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9:   Verifying  : epel-release-7-11.noarch                                     1/1
     m-k8s-1.24.9:   Verifying  : epel-release-7-11.noarch                                     1/1
-2023-06-21 13:16:21 [ INFO] detail: 
-2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:21 [ INFO] detail:
+2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:21 [ INFO] detail: Installed:
 2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: Installed:
     m-k8s-1.24.9: Installed:
 2023-06-21 13:16:21 [ INFO] detail:   epel-release.noarch 0:7-11
 2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9:   epel-release.noarch 0:7-11
     m-k8s-1.24.9:   epel-release.noarch 0:7-11
-2023-06-21 13:16:21 [ INFO] detail: 
-2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:21 [ INFO] detail:
+2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:21 [ INFO] detail: Complete!
 2023-06-21 13:16:21 [ INFO] detail:     m-k8s-1.24.9: Complete!
     m-k8s-1.24.9: Complete!
@@ -8294,15 +8304,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:16:41 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9: --> Finished Dependency Resolution
     m-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:16:41 [ INFO] detail: 
-2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:41 [ INFO] detail:
+2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:41 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9: Dependencies Resolved
     m-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:16:41 [ INFO] detail: 
-2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:41 [ INFO] detail:
+2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:41 [ INFO] detail: ================================================================================
 2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9: ================================================================================
     m-k8s-1.24.9: ================================================================================
@@ -8411,9 +8421,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:16:41 [ INFO] detail:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
 2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
     m-k8s-1.24.9:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
-2023-06-21 13:16:41 [ INFO] detail: 
-2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:41 [ INFO] detail:
+2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:41 [ INFO] detail: Transaction Summary
 2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9: Transaction Summary
     m-k8s-1.24.9: Transaction Summary
@@ -8423,9 +8433,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:16:41 [ INFO] detail: Install  1 Package (+30 Dependent packages)
 2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9: Install  1 Package (+30 Dependent packages)
     m-k8s-1.24.9: Install  1 Package (+30 Dependent packages)
-2023-06-21 13:16:41 [ INFO] detail: 
-2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:41 [ INFO] detail:
+2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:41 [ INFO] detail: Total download size: 18 M
 2023-06-21 13:16:41 [ INFO] detail:     m-k8s-1.24.9: Total download size: 18 M
     m-k8s-1.24.9: Total download size: 18 M
@@ -8639,18 +8649,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:16:51 [ INFO] detail:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
 2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
     m-k8s-1.24.9:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
-2023-06-21 13:16:51 [ INFO] detail: 
-2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:51 [ INFO] detail:
+2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:51 [ INFO] detail: Installed:
 2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9: Installed:
     m-k8s-1.24.9: Installed:
 2023-06-21 13:16:51 [ INFO] detail:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
 2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
     m-k8s-1.24.9:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
-2023-06-21 13:16:51 [ INFO] detail: 
-2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:51 [ INFO] detail:
+2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:51 [ INFO] detail: Dependency Installed:
 2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9: Dependency Installed:
     m-k8s-1.24.9: Dependency Installed:
@@ -8744,9 +8754,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:16:51 [ INFO] detail:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
 2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
     m-k8s-1.24.9:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
-2023-06-21 13:16:51 [ INFO] detail: 
-2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:16:51 [ INFO] detail:
+2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:16:51 [ INFO] detail: Complete!
 2023-06-21 13:16:51 [ INFO] detail:     m-k8s-1.24.9: Complete!
     m-k8s-1.24.9: Complete!
@@ -8810,15 +8820,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:02 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9: --> Finished Dependency Resolution
     m-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:17:02 [ INFO] detail: 
-2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:02 [ INFO] detail:
+2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:02 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9: Dependencies Resolved
     m-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:17:02 [ INFO] detail: 
-2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:02 [ INFO] detail:
+2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:02 [ INFO] detail: ================================================================================
 2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9: ================================================================================
     m-k8s-1.24.9: ================================================================================
@@ -8849,9 +8859,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:02 [ INFO] detail:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
 2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
     m-k8s-1.24.9:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
-2023-06-21 13:17:02 [ INFO] detail: 
-2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:02 [ INFO] detail:
+2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:02 [ INFO] detail: Transaction Summary
 2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9: Transaction Summary
     m-k8s-1.24.9: Transaction Summary
@@ -8861,9 +8871,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:02 [ INFO] detail: Install  1 Package (+4 Dependent packages)
 2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9: Install  1 Package (+4 Dependent packages)
     m-k8s-1.24.9: Install  1 Package (+4 Dependent packages)
-2023-06-21 13:17:02 [ INFO] detail: 
-2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:02 [ INFO] detail:
+2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:02 [ INFO] detail: Total download size: 4.9 M
 2023-06-21 13:17:02 [ INFO] detail:     m-k8s-1.24.9: Total download size: 4.9 M
     m-k8s-1.24.9: Total download size: 4.9 M
@@ -8921,18 +8931,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:04 [ INFO] detail:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
 2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
     m-k8s-1.24.9:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
-2023-06-21 13:17:04 [ INFO] detail: 
-2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:04 [ INFO] detail:
+2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:04 [ INFO] detail: Installed:
 2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9: Installed:
     m-k8s-1.24.9: Installed:
 2023-06-21 13:17:04 [ INFO] detail:   git.x86_64 0:1.8.3.1-25.el7_9
 2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9:   git.x86_64 0:1.8.3.1-25.el7_9
     m-k8s-1.24.9:   git.x86_64 0:1.8.3.1-25.el7_9
-2023-06-21 13:17:04 [ INFO] detail: 
-2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:04 [ INFO] detail:
+2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:04 [ INFO] detail: Dependency Installed:
 2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9: Dependency Installed:
     m-k8s-1.24.9: Dependency Installed:
@@ -8942,9 +8952,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:04 [ INFO] detail:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
 2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
     m-k8s-1.24.9:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
-2023-06-21 13:17:04 [ INFO] detail: 
-2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:04 [ INFO] detail:
+2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:04 [ INFO] detail: Complete!
 2023-06-21 13:17:04 [ INFO] detail:     m-k8s-1.24.9: Complete!
     m-k8s-1.24.9: Complete!
@@ -9092,15 +9102,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:11 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9: --> Finished Dependency Resolution
     m-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:17:11 [ INFO] detail: 
-2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:11 [ INFO] detail:
+2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:11 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9: Dependencies Resolved
     m-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:17:11 [ INFO] detail: 
-2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:11 [ INFO] detail:
+2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:11 [ INFO] detail: ================================================================================
 2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9: ================================================================================
     m-k8s-1.24.9: ================================================================================
@@ -9167,9 +9177,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:11 [ INFO] detail:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
 2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
     m-k8s-1.24.9:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
-2023-06-21 13:17:11 [ INFO] detail: 
-2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:11 [ INFO] detail:
+2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:11 [ INFO] detail: Transaction Summary
 2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9: Transaction Summary
     m-k8s-1.24.9: Transaction Summary
@@ -9179,9 +9189,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:11 [ INFO] detail: Install  3 Packages (+13 Dependent packages)
 2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9: Install  3 Packages (+13 Dependent packages)
     m-k8s-1.24.9: Install  3 Packages (+13 Dependent packages)
-2023-06-21 13:17:11 [ INFO] detail: 
-2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:11 [ INFO] detail:
+2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:11 [ INFO] detail: Total download size: 99 M
 2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9: Total download size: 99 M
     m-k8s-1.24.9: Total download size: 99 M
@@ -9191,7 +9201,7 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:11 [ INFO] detail: Downloading packages:
 2023-06-21 13:17:11 [ INFO] detail:     m-k8s-1.24.9: Downloading packages:
     m-k8s-1.24.9: Downloading packages:
-2023-06-21 13:17:17 [DEBUG] stderr: warning: 
+2023-06-21 13:17:17 [DEBUG] stderr: warning:
 2023-06-21 13:17:17 [DEBUG] stderr: /var/cache/yum/x86_64/7/docker-ce-stable/packages/containerd.io-1.6.4-3.1.el7.x86_64.rpm: Header V4 RSA/SHA512 Signature, key ID 621e9f35: NOKEY
 
 2023-06-21 13:17:17 [ INFO] detail: warning: /var/cache/yum/x86_64/7/docker-ce-stable/packages/containerd.io-1.6.4-3.1.el7.x86_64.rpm: Header V4 RSA/SHA512 Signature, key ID 621e9f35: NOKEY
@@ -9334,9 +9344,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:58 [ INFO] detail:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
 2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
     m-k8s-1.24.9:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
-2023-06-21 13:17:58 [ INFO] detail: 
-2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:58 [ INFO] detail:
+2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:58 [ INFO] detail: Installed:
 2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9: Installed:
     m-k8s-1.24.9: Installed:
@@ -9346,9 +9356,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:58 [ INFO] detail:   docker-ce-cli.x86_64 1:20.10.15-3.el7
 2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9:   docker-ce-cli.x86_64 1:20.10.15-3.el7
     m-k8s-1.24.9:   docker-ce-cli.x86_64 1:20.10.15-3.el7
-2023-06-21 13:17:58 [ INFO] detail: 
-2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:58 [ INFO] detail:
+2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:58 [ INFO] detail: Dependency Installed:
 2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9: Dependency Installed:
     m-k8s-1.24.9: Dependency Installed:
@@ -9391,9 +9401,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:17:58 [ INFO] detail:   slirp4netns.x86_64 0:0.4.3-4.el7_8
 2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9:   slirp4netns.x86_64 0:0.4.3-4.el7_8
     m-k8s-1.24.9:   slirp4netns.x86_64 0:0.4.3-4.el7_8
-2023-06-21 13:17:58 [ INFO] detail: 
-2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:17:58 [ INFO] detail:
+2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:17:58 [ INFO] detail: Complete!
 2023-06-21 13:17:58 [ INFO] detail:     m-k8s-1.24.9: Complete!
     m-k8s-1.24.9: Complete!
@@ -9490,15 +9500,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:18:10 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9: --> Finished Dependency Resolution
     m-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:18:10 [ INFO] detail: 
-2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:18:10 [ INFO] detail:
+2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:18:10 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9: Dependencies Resolved
     m-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:18:10 [ INFO] detail: 
-2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:18:10 [ INFO] detail:
+2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:18:10 [ INFO] detail: ================================================================================
 2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9: ================================================================================
     m-k8s-1.24.9: ================================================================================
@@ -9544,9 +9554,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:18:10 [ INFO] detail:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
 2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
     m-k8s-1.24.9:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
-2023-06-21 13:18:10 [ INFO] detail: 
-2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:18:10 [ INFO] detail:
+2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:18:10 [ INFO] detail: Transaction Summary
 2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9: Transaction Summary
     m-k8s-1.24.9: Transaction Summary
@@ -9556,9 +9566,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:18:10 [ INFO] detail: Install  3 Packages (+7 Dependent packages)
 2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9: Install  3 Packages (+7 Dependent packages)
     m-k8s-1.24.9: Install  3 Packages (+7 Dependent packages)
-2023-06-21 13:18:10 [ INFO] detail: 
-2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:18:10 [ INFO] detail:
+2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:18:10 [ INFO] detail: Total download size: 66 M
 2023-06-21 13:18:10 [ INFO] detail:     m-k8s-1.24.9: Total download size: 66 M
     m-k8s-1.24.9: Total download size: 66 M
@@ -9646,18 +9656,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:18:28 [ INFO] detail:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
 2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
     m-k8s-1.24.9:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
-2023-06-21 13:18:28 [ INFO] detail: 
-2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:18:28 [ INFO] detail:
+2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:18:28 [ INFO] detail: Installed:
 2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9: Installed:
     m-k8s-1.24.9: Installed:
 2023-06-21 13:18:28 [ INFO] detail:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
 2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
     m-k8s-1.24.9:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
-2023-06-21 13:18:28 [ INFO] detail: 
-2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:18:28 [ INFO] detail:
+2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:18:28 [ INFO] detail: Dependency Installed:
 2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9: Dependency Installed:
     m-k8s-1.24.9: Dependency Installed:
@@ -9682,9 +9692,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:18:28 [ INFO] detail:   socat.x86_64 0:1.7.3.2-2.el7
 2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9:   socat.x86_64 0:1.7.3.2-2.el7
     m-k8s-1.24.9:   socat.x86_64 0:1.7.3.2-2.el7
-2023-06-21 13:18:28 [ INFO] detail: 
-2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:18:28 [ INFO] detail:
+2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:18:28 [ INFO] detail: Complete!
 2023-06-21 13:18:28 [ INFO] detail:     m-k8s-1.24.9: Complete!
     m-k8s-1.24.9: Complete!
@@ -9764,9 +9774,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
     m-k8s-1.24.9: [preflight] This might take a minute or two, depending on the speed of your internet connection
 2023-06-21 13:18:38 [ INFO] detail: [preflight] You can also perform this action in beforehand using 'kubeadm config images pull'
 2023-06-21 13:18:38 [ INFO] detail:     m-k8s-1.24.9: [preflight] You can also perform this action in beforehand using 'kubeadm config images pull'
-    m-k8s-1.24.9: [preflight] You can also perform this action in beforehand using 'kubeadm config images pull'
-2023-06-21 13:19:52 [ INFO] detail: [certs] Using certificateDir folder "/etc/kubernetes/pki"
-2023-06-21 13:19:52 [ INFO] detail:     m-k8s-1.24.9: [certs] Using certificateDir folder "/etc/kubernetes/pki"
+    m-k8s-1.24.9: [preflight] You can also perform this action in beforehand using 'kubeadm config images pull'192.168.2.
+2023-06-21 13:19:52 [ INFO] detail: [certs] Using certificateDir folder "/etc/kubernetes/pki"192.168.2.
+2023-06-21 13:19:52 [ INFO] detail:     m-k8s-1.24.9: [certs] Using certificateDir folder "/etc/kubernetes/pki"192.168.2.
     m-k8s-1.24.9: [certs] Using certificateDir folder "/etc/kubernetes/pki"
 2023-06-21 13:19:52 [ INFO] detail: [certs] Generating "ca" certificate and key
 2023-06-21 13:19:52 [ INFO] detail:     m-k8s-1.24.9: [certs] Generating "ca" certificate and key
@@ -9782,15 +9792,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
     m-k8s-1.24.9: [certs] Generating "apiserver-kubelet-client" certificate and key
 2023-06-21 13:19:53 [ INFO] detail: [certs] Generating "front-proxy-ca" certificate and key
 2023-06-21 13:19:53 [ INFO] detail:     m-k8s-1.24.9: [certs] Generating "front-proxy-ca" certificate and key
-    m-k8s-1.24.9: [certs] Generating "front-proxy-ca" certificate and key
-2023-06-21 13:19:53 [ INFO] detail: [certs] Generating "front-proxy-client" certificate and key
-2023-06-21 13:19:53 [ INFO] detail:     m-k8s-1.24.9: [certs] Generating "front-proxy-client" certificate and key
+    m-k8s-1.24.9: [certs] Generating "front-proxy-ca" certificate and key192.168.2.
+2023-06-21 13:19:53 [ INFO] detail: [certs] Generating "front-proxy-client" certificate and key192.168.2.
+2023-06-21 13:19:53 [ INFO] detail:     m-k8s-1.24.9: [certs] Generating "front-proxy-client" certific192.168.2.y
     m-k8s-1.24.9: [certs] Generating "front-proxy-client" certificate and key
 2023-06-21 13:19:53 [ INFO] detail: [certs] Generating "etcd/ca" certificate and key
 2023-06-21 13:19:53 [ INFO] detail:     m-k8s-1.24.9: [certs] Generating "etcd/ca" certificate and key
-    m-k8s-1.24.9: [certs] Generating "etcd/ca" certificate and key
-2023-06-21 13:19:54 [ INFO] detail: [certs] Generating "etcd/server" certificate and key
-2023-06-21 13:19:54 [ INFO] detail:     m-k8s-1.24.9: [certs] Generating "etcd/server" certificate and key
+    m-k8s-1.24.9: [certs] Generating "etcd/ca" certificate and key192.168.2.
+2023-06-21 13:19:54 [ INFO] detail: [certs] Generating "etcd/server" certificate and key192.168.2.
+2023-06-21 13:19:54 [ INFO] detail:     m-k8s-1.24.9: [certs] Generating "etcd/server" certificate a192.168.2.
     m-k8s-1.24.9: [certs] Generating "etcd/server" certificate and key
 2023-06-21 13:19:54 [ INFO] detail: [certs] etcd/server serving cert is signed for DNS names [localhost m-k8s] and IPs [192.168.1.10 127.0.0.1 ::1]
 2023-06-21 13:19:54 [ INFO] detail:     m-k8s-1.24.9: [certs] etcd/server serving cert is signed for DNS names [localhost m-k8s] and IPs [192.168.1.10 127.0.0.1 ::1]
@@ -9900,21 +9910,21 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:20:09 [ INFO] detail: [addons] Applied essential addon: kube-proxy
 2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: [addons] Applied essential addon: kube-proxy
     m-k8s-1.24.9: [addons] Applied essential addon: kube-proxy
-2023-06-21 13:20:09 [ INFO] detail: 
-2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:09 [ INFO] detail:
+2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:09 [ INFO] detail: Your Kubernetes control-plane has initialized successfully!
 2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: Your Kubernetes control-plane has initialized successfully!
     m-k8s-1.24.9: Your Kubernetes control-plane has initialized successfully!
-2023-06-21 13:20:09 [ INFO] detail: 
-2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:09 [ INFO] detail:
+2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:09 [ INFO] detail: To start using your cluster, you need to run the following as a regular user:
 2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: To start using your cluster, you need to run the following as a regular user:
     m-k8s-1.24.9: To start using your cluster, you need to run the following as a regular user:
-2023-06-21 13:20:09 [ INFO] detail: 
-2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:09 [ INFO] detail:
+2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:09 [ INFO] detail:   mkdir -p $HOME/.kube
 2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9:   mkdir -p $HOME/.kube
     m-k8s-1.24.9:   mkdir -p $HOME/.kube
@@ -9924,21 +9934,21 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:20:09 [ INFO] detail:   sudo chown $(id -u):$(id -g) $HOME/.kube/config
 2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9:   sudo chown $(id -u):$(id -g) $HOME/.kube/config
     m-k8s-1.24.9:   sudo chown $(id -u):$(id -g) $HOME/.kube/config
-2023-06-21 13:20:09 [ INFO] detail: 
-2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:09 [ INFO] detail:
+2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:09 [ INFO] detail: Alternatively, if you are the root user, you can run:
 2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: Alternatively, if you are the root user, you can run:
     m-k8s-1.24.9: Alternatively, if you are the root user, you can run:
-2023-06-21 13:20:09 [ INFO] detail: 
-2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:09 [ INFO] detail:
+2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:09 [ INFO] detail:   export KUBECONFIG=/etc/kubernetes/admin.conf
 2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9:   export KUBECONFIG=/etc/kubernetes/admin.conf
     m-k8s-1.24.9:   export KUBECONFIG=/etc/kubernetes/admin.conf
-2023-06-21 13:20:09 [ INFO] detail: 
-2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:09 [ INFO] detail:
+2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:09 [ INFO] detail: You should now deploy a pod network to the cluster.
 2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: You should now deploy a pod network to the cluster.
     m-k8s-1.24.9: You should now deploy a pod network to the cluster.
@@ -9947,16 +9957,16 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
     m-k8s-1.24.9: Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
 2023-06-21 13:20:09 [ INFO] detail:   https://kubernetes.io/docs/concepts/cluster-administration/addons/
 2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9:   https://kubernetes.io/docs/concepts/cluster-administration/addons/
-    m-k8s-1.24.9:   https://kubernetes.io/docs/concepts/cluster-administration/addons/
-2023-06-21 13:20:09 [ INFO] detail: 
-2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+    m-k8s-1.24.9:   https://kubernetes.io/docs/co192.168.2.ster-administration/addons/
+2023-06-21 13:20:09 [ INFO] detail: 192.168.2.
+2023-06-21 13:20:09 [ INFO] det192.168.2.-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:09 [ INFO] detail: Then you can join any number of worker nodes by running the following on each as root:
 2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: Then you can join any number of worker nodes by running the following on each as root:
     m-k8s-1.24.9: Then you can join any number of worker nodes by running the following on each as root:
-2023-06-21 13:20:09 [ INFO] detail: 
-2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:09 [ INFO] detail:
+2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:09 [ INFO] detail: kubeadm join 192.168.1.10:6443 --token 123456.1234567890123456 \
 2023-06-21 13:20:09 [ INFO] detail:     m-k8s-1.24.9: kubeadm join 192.168.1.10:6443 --token 123456.1234567890123456 \
     m-k8s-1.24.9: kubeadm join 192.168.1.10:6443 --token 123456.1234567890123456 \
@@ -10135,15 +10145,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:20:23 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9: --> Finished Dependency Resolution
     m-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:20:23 [ INFO] detail: 
-2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:23 [ INFO] detail:
+2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:23 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9: Dependencies Resolved
     m-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:20:23 [ INFO] detail: 
-2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:23 [ INFO] detail:
+2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:23 [ INFO] detail: ================================================================================
 2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9: ================================================================================
     m-k8s-1.24.9: ================================================================================
@@ -10159,9 +10169,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:20:23 [ INFO] detail:  bash-completion         noarch         1:2.1-8.el7          base          87 k
 2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9:  bash-completion         noarch         1:2.1-8.el7          base          87 k
     m-k8s-1.24.9:  bash-completion         noarch         1:2.1-8.el7          base          87 k
-2023-06-21 13:20:23 [ INFO] detail: 
-2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:23 [ INFO] detail:
+2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:23 [ INFO] detail: Transaction Summary
 2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9: Transaction Summary
     m-k8s-1.24.9: Transaction Summary
@@ -10171,9 +10181,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:20:23 [ INFO] detail: Install  1 Package
 2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9: Install  1 Package
     m-k8s-1.24.9: Install  1 Package
-2023-06-21 13:20:23 [ INFO] detail: 
-2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:23 [ INFO] detail:
+2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:23 [ INFO] detail: Total download size: 87 k
 2023-06-21 13:20:23 [ INFO] detail:     m-k8s-1.24.9: Total download size: 87 k
     m-k8s-1.24.9: Total download size: 87 k
@@ -10201,51 +10211,79 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:20:24 [ INFO] detail:   Verifying  : 1:bash-completion-2.1-8.el7.noarch                           1/1
 2023-06-21 13:20:24 [ INFO] detail:     m-k8s-1.24.9:   Verifying  : 1:bash-completion-2.1-8.el7.noarch                           1/1
     m-k8s-1.24.9:   Verifying  : 1:bash-completion-2.1-8.el7.noarch                           1/1
-2023-06-21 13:20:24 [ INFO] detail: 
-2023-06-21 13:20:24 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:24 [ INFO] detail:
+2023-06-21 13:20:24 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:24 [ INFO] detail: Installed:
 2023-06-21 13:20:24 [ INFO] detail:     m-k8s-1.24.9: Installed:
     m-k8s-1.24.9: Installed:
 2023-06-21 13:20:24 [ INFO] detail:   bash-completion.noarch 1:2.1-8.el7
 2023-06-21 13:20:24 [ INFO] detail:     m-k8s-1.24.9:   bash-completion.noarch 1:2.1-8.el7
     m-k8s-1.24.9:   bash-completion.noarch 1:2.1-8.el7
-2023-06-21 13:20:24 [ INFO] detail: 
-2023-06-21 13:20:24 [ INFO] detail:     m-k8s-1.24.9: 
-    m-k8s-1.24.9: 
+2023-06-21 13:20:24 [ INFO] detail:
+2023-06-21 13:20:24 [ INFO] detail:     m-k8s-1.24.9:
+    m-k8s-1.24.9:
 2023-06-21 13:20:24 [ INFO] detail: Complete!
 2023-06-21 13:20:24 [ INFO] detail:     m-k8s-1.24.9: Complete!
     m-k8s-1.24.9: Complete!
 2023-06-21 13:20:24 [ INFO] detail: Cloning into '_Lecture_k8s_learning.kit'...
 2023-06-21 13:20:24 [ INFO] detail:     m-k8s-1.24.9: Cloning into '_Lecture_k8s_learning.kit'...
     m-k8s-1.24.9: Cloning into '_Lecture_k8s_learning.kit'...
-2023-06-21 13:20:30 [DEBUG] stderr:   % Total    % Received % Xferd  Average Speed   Time    Time    
+2023-06-21 13:20:30 [DEBUG] stderr:   % Total    % Received % Xferd  Average Speed   Time    Time
 2023-06-21 13:20:30 [DEBUG] stderr:  Time  Current
-                  
+
 2023-06-21 13:20:30 [ INFO] detail:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
 2023-06-21 13:20:30 [ INFO] detail:     m-k8s-1.24.9:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
     m-k8s-1.24.9:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
 2023-06-21 13:20:30 [DEBUG] stderr:                Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 2023-06-21 13:20:30 [ INFO] detail:                                  Dload  Upload   Total   Spent    Left  Speed
 2023-06-21 13:20:30 [ INFO] detail:     m-k8s-1.24.9:                                  Dload  Upload   Total   Spent    Left  Speed
     m-k8s-1.24.9:                                  Dload  Upload   Total   Spent    Left  Speed
-2023-06-21 13:20:31 [DEBUG] stderr:   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
-2023-06-21 13:20:31 [DEBUG] stderr:   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+2023-06-21 13:20:31 [DEBUG] stderr:
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+2023-06-21 13:20:31 [DEBUG] stderr:
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
 
-2023-06-21 13:20:31 [ INFO] detail:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
-2023-06-21 13:20:31 [ INFO] detail:     m-k8s-1.24.9:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
-    m-k8s-1.24.9:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
-2023-06-21 13:20:32 [DEBUG] stderr:   0 4470k    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
-2023-06-21 13:20:33 [DEBUG] stderr:  12 4470k   12  543k    0     0   183k      0  0:00:24  0:00:02  0:00:22  649k
-2023-06-21 13:20:34 [DEBUG] stderr:  43 4470k   43 1929k    0 
+2023-06-21 13:20:31 [ INFO] detail:
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+2023-06-21 13:20:31 [ INFO] detail:     m-k8s-1.24.9:
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+    m-k8s-1.24.9:
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+2023-06-21 13:20:32 [DEBUG] stderr:
+  0 4470k    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+2023-06-21 13:20:33 [DEBUG] stderr:
+ 12 4470k   12  543k    0     0   183k      0  0:00:24  0:00:02  0:00:22  649k
+2023-06-21 13:20:34 [DEBUG] stderr:
+ 43 4470k   43 1929k    0
 2023-06-21 13:20:34 [DEBUG] stderr:     0   487k      0  0:00:0
 2023-06-21 13:20:34 [DEBUG] stderr: 9  0:00:03  0:00:06 1051k
-2023-06-21 13:20:35 [DEBUG] stderr: 100 4470k  100 4470k    0     0   941k      0  0:00:04  0:00:04 --:--:-- 1706k
+2023-06-21 13:20:35 [DEBUG] stderr:
+100 4470k  100 4470k    0     0   941k      0  0:00:04  0:00:04 --:--:-- 1706k
 
-2023-06-21 13:20:35 [ INFO] detail:   0 4470k    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0 12 4470k   12  543k    0     0   183k      0  0:00:24  0:00:02  0:00:22  649k 43 4470k   43 1929k    0     0   487k      0  0:00:09  0:00:03  0:00:06 1051k100 4470k  100 4470k    0     0   941k      0  0:00:04  0:00:04 --:--:-- 1706k
-2023-06-21 13:20:35 [ INFO] detail:     m-k8s-1.24.9:   0 4470k    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0 12 4470k   12  543k    0     0   183k      0  0:00:24  0:00:02  0:00:22  649k 43 4470k   43 1929k    0     0   487k      0  0:00:09  0:00:03  0:00:06 1051k100 4470k  100 4470k    0     0   941k      0  0:00:04  0:00:04 --:--:-- 1706k
-    m-k8s-1.24.9:   0 4470k    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0 12 4470k   12  543k    0     0   183k      0  0:00:24  0:00:02  0:00:22  649k 43 4470k   43 1929k    0     0   487k      0  0:00:09  0:00:03  0:00:06 1051k100 4470k  100 4470k    0     0   941k      0  0:00:04  0:00:04 --:--:-- 1706k
+2023-06-21 13:20:35 [ INFO] detail:
+  0 4470k    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+ 12 4470k   12  543k    0     0   183k      0  0:00:24  0:00:02  0:00:22  649k
+ 43 4470k   43 1929k    0     0   487k      0  0:00:09  0:00:03  0:00:06 1051k
+100 4470k  100 4470k    0     0   941k      0  0:00:04  0:00:04 --:--:-- 1706k
+2023-06-21 13:20:35 [ INFO] detail:     m-k8s-1.24.9:
+  0 4470k    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+ 12 4470k   12  543k    0     0   183k      0  0:00:24  0:00:02  0:00:22  649k
+ 43 4470k   43 1929k    0     0   487k      0  0:00:09  0:00:03  0:00:06 1051k
+100 4470k  100 4470k    0     0   941k      0  0:00:04  0:00:04 --:--:-- 1706k
+    m-k8s-1.24.9:
+  0 4470k    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+ 12 4470k   12  543k    0     0   183k      0  0:00:24  0:00:02  0:00:22  649k
+ 43 4470k   43 1929k    0     0   487k      0  0:00:09  0:00:03  0:00:06 1051k
+100 4470k  100 4470k    0     0   941k      0  0:00:04  0:00:04 --:--:-- 1706k
 2023-06-21 13:20:35 [ INFO] detail: kustomize installed successfully
 2023-06-21 13:20:35 [ INFO] detail:     m-k8s-1.24.9: kustomize installed successfully
     m-k8s-1.24.9: kustomize installed successfully
@@ -10628,14 +10666,22 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687320957-0' '/etc/sysconfig/network-scr
 2023-06-21 13:20:47 [DEBUG] Command not in installer, not touching env vars.
 2023-06-21 13:20:47 [ INFO] Command not in installer, restoring original environment...
 2023-06-21 13:20:47 [DEBUG] Selecting on IO
-2023-06-21 13:20:49 [ INFO] info: [K
-[K2023-06-21 13:20:49 [ INFO] info: Progress: 30%
-Progress: 30%2023-06-21 13:20:51 [ INFO] info: [K
-[K2023-06-21 13:20:51 [ INFO] info: Progress: 50%
-Progress: 50%2023-06-21 13:20:52 [ INFO] info: [K
-[K2023-06-21 13:20:52 [ INFO] info: Progress: 70%
-Progress: 70%2023-06-21 13:20:54 [ INFO] info: [K
-[K2023-06-21 13:20:54 [ INFO] info: Progress: 90%
+2023-06-21 13:20:49 [ INFO] info:
+[K
+
+[K2023-06-21 13:20:49 [ INFO] info: Progress: 30%
+Progress: 30%2023-06-21 13:20:51 [ INFO] info:
+[K
+
+[K2023-06-21 13:20:51 [ INFO] info: Progress: 50%
+Progress: 50%2023-06-21 13:20:52 [ INFO] info:
+[K
+
+[K2023-06-21 13:20:52 [ INFO] info: Progress: 70%
+Progress: 70%2023-06-21 13:20:54 [ INFO] info:
+[K
+
+[K2023-06-21 13:20:54 [ INFO] info: Progress: 90%
 Progress: 90%2023-06-21 13:20:55 [DEBUG] Waiting for process to exit. Remaining to timeout: 31992
 2023-06-21 13:20:55 [DEBUG] Exit status: 0
 2023-06-21 13:20:55 [ INFO] Starting process: ["/usr/local/bin/VBoxManage", "list", "vms"]
@@ -10666,8 +10712,10 @@ Progress: 90%2023-06-21 13:20:55 [DEBUG] Waiting for process to exit. Remaining 
 2023-06-21 13:20:56 [DEBUG] Selecting on IO
 2023-06-21 13:20:56 [DEBUG] Waiting for process to exit. Remaining to timeout: 32000
 2023-06-21 13:20:56 [DEBUG] Exit status: 0
-2023-06-21 13:20:56 [ INFO] info: [K
-[K2023-06-21 13:20:56 [ INFO] Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::DiscardState:0x000000010b4d8e40>
+2023-06-21 13:20:56 [ INFO] info:
+[K
+
+[K2023-06-21 13:20:56 [ INFO] Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::DiscardState:0x000000010b4d8e40>
 2023-06-21 13:20:56 [ INFO] Starting process: ["/usr/local/bin/VBoxManage", "showvminfo", "e1e8c6d5-a93a-45ce-bae1-7ea97a4e0984", "--machinereadable"]
 2023-06-21 13:20:56 [DEBUG] Command not in installer, not touching env vars.
 2023-06-21 13:20:56 [ INFO] Command not in installer, restoring original environment...
@@ -11227,8 +11275,8 @@ Progress: 90%2023-06-21 13:20:55 [DEBUG] Waiting for process to exit. Remaining 
 2023-06-21 13:21:03 [ INFO] Acquired process lock: dotlock
 2023-06-21 13:21:03 [ INFO] Released process lock: dotlock
 2023-06-21 13:21:03 [ INFO] Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::PrepareNFSValidIds:0x000000010b2d8d48>
-2023-06-21 13:21:03 [ INFO] Starting process: ["/usr/local/bin/VBoxManage", "list", "vms"]
-2023-06-21 13:21:03 [DEBUG] Command not in installer, not touching env vars.
+2023-06-21 13:21:03 [ INFO] Starting process: ["/usr/local/bin/VBoxMa192.168.2.st", "vms"]192.168.2.
+2023-06-21 13:21:03 [DEBUG] Command not in installer, not touching en192.168.2.
 2023-06-21 13:21:03 [ INFO] Command not in installer, restoring original environment...
 2023-06-21 13:21:03 [DEBUG] Selecting on IO
 2023-06-21 13:21:03 [DEBUG] Waiting for process to exit. Remaining to timeout: 32000
@@ -16807,8 +16855,8 @@ D, [2023-06-21T13:21:44.960103 #22463] DEBUG -- net.ssh.transport.algorithms[11b
 * hmac_server: hmac-sha2-512-etm@openssh.com
 * compression_client: none
 * compression_server: none
-* language_client: 
-* language_server: 
+* language_client:
+* language_server:
 D, [2023-06-21T13:21:44.960120 #22463] DEBUG -- net.ssh.transport.algorithms[11b5c]: exchanging keys
 D, [2023-06-21T13:21:44.963256 #22463] DEBUG -- socket[11b70]: queueing packet nr 1 type 30 len 148
 D, [2023-06-21T13:21:44.963330 #22463] DEBUG -- socket[11b70]: sent 152 bytes
@@ -16886,13 +16934,13 @@ D, [2023-06-21T13:21:45.328316 #22463] DEBUG -- net.ssh.authentication.methods.p
 2023-06-21 13:21:47 [DEBUG] Exit status: 0
 2023-06-21 13:21:47 [DEBUG]   - [1, "ssh", 60101, 22, ""]
 2023-06-21 13:21:47 [DEBUG] Checking key permissions: /Users/mz01-hj/.vagrant.d/insecure_private_key
-2023-06-21 13:21:47 [ INFO] detail: 
+2023-06-21 13:21:47 [ INFO] detail:
 Vagrant insecure key detected. Vagrant will automatically replace
 this with a newly generated keypair for better security.
-2023-06-21 13:21:47 [ INFO] detail:     w1-k8s-1.24.9: 
+2023-06-21 13:21:47 [ INFO] detail:     w1-k8s-1.24.9:
     w1-k8s-1.24.9: Vagrant insecure key detected. Vagrant will automatically replace
     w1-k8s-1.24.9: this with a newly generated keypair for better security.
-    w1-k8s-1.24.9: 
+    w1-k8s-1.24.9:
     w1-k8s-1.24.9: Vagrant insecure key detected. Vagrant will automatically replace
     w1-k8s-1.24.9: this with a newly generated keypair for better security.
 2023-06-21 13:21:47 [DEBUG] Checking whether SSH is ready...
@@ -16976,10 +17024,10 @@ exit 1
 2023-06-21 13:21:50 [DEBUG] Waiting for process to exit. Remaining to timeout: 32000
 2023-06-21 13:21:50 [DEBUG] Exit status: 0
 2023-06-21 13:21:51 [DEBUG] stderr: 41e57d38-b4f7-4e46-9c38-13873d338b86-vagrant-ssh
-2023-06-21 13:21:51 [DEBUG] stderr: cat: 
+2023-06-21 13:21:51 [DEBUG] stderr: cat:
 2023-06-21 13:21:51 [DEBUG] stderr: /etc/pld-release
 2023-06-21 13:21:51 [DEBUG] stderr: : No such file or directory
-2023-06-21 13:21:51 [DEBUG] stderr: 
+2023-06-21 13:21:51 [DEBUG] stderr:
 
 2023-06-21 13:21:51 [DEBUG] Exit status: 1
 2023-06-21 13:21:51 [DEBUG] Trying: amazon
@@ -17054,11 +17102,11 @@ exit 1
 2023-06-21 13:21:54 [DEBUG] Checking in: linux
 2023-06-21 13:21:54 [DEBUG] Found cap: remove_public_key in linux
 2023-06-21 13:21:54 [ INFO] Inserting key to avoid password: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDlDnqhBhAEWqQzDKfPt6aaNROY/fK4fRQWqgk4OKmINTEl3LTJHCVY9mmviwTE8OYxLQeYSgCZvARcoEnAlH8UV5UQpupGhjd5Eso1NrUkucrfCTE9vCzIHFzFBelWMgdcuAk4sXpZguQB6uVBo1dgS3Aet3PU5UrUvMa6OjrUr8sMP3Sjai7Y7wBjC5fWdCUg2yAVW9I6D3e6+YR4Zkvm83+xo5yqANsbDJN2G24TTKyy8W/KcwPX9Qm1ED8FIKa1T8WxkYwwI9gkkEKV/E9aimJdYN3mppU8iLr9tDkqVnmuMR6LE3+HGn1iHIrojhvPNQS+/+LjoHJxkvPLEbGr vagrant
-2023-06-21 13:21:54 [ INFO] detail: 
+2023-06-21 13:21:54 [ INFO] detail:
 Inserting generated public key within guest...
-2023-06-21 13:21:54 [ INFO] detail:     w1-k8s-1.24.9: 
+2023-06-21 13:21:54 [ INFO] detail:     w1-k8s-1.24.9:
     w1-k8s-1.24.9: Inserting generated public key within guest...
-    w1-k8s-1.24.9: 
+    w1-k8s-1.24.9:
     w1-k8s-1.24.9: Inserting generated public key within guest...
 2023-06-21 13:21:54 [DEBUG] Checking whether SSH is ready...
 2023-06-21 13:21:55 [DEBUG] Re-using SSH connection.
@@ -17221,8 +17269,8 @@ D, [2023-06-21T13:22:01.676562 #22463] DEBUG -- net.ssh.transport.algorithms[11f
 * hmac_server: hmac-sha2-512-etm@openssh.com
 * compression_client: none
 * compression_server: none
-* language_client: 
-* language_server: 
+* language_client:
+* language_server:
 D, [2023-06-21T13:22:01.676579 #22463] DEBUG -- net.ssh.transport.algorithms[11fd0]: exchanging keys
 D, [2023-06-21T13:22:01.679734 #22463] DEBUG -- socket[11fe4]: queueing packet nr 1 type 30 len 148
 D, [2023-06-21T13:22:01.679817 #22463] DEBUG -- socket[11fe4]: sent 152 bytes
@@ -17321,7 +17369,7 @@ VirtualBox Version: 6.1
     w1-k8s-1.24.9: shared folder errors, please make sure the guest additions within the
     w1-k8s-1.24.9: virtual machine match the version of VirtualBox you have installed on
     w1-k8s-1.24.9: your host and reload your VM.
-    w1-k8s-1.24.9: 
+    w1-k8s-1.24.9:
     w1-k8s-1.24.9: Guest Additions Version: 5.2.12
     w1-k8s-1.24.9: VirtualBox Version: 6.1
     w1-k8s-1.24.9: The guest additions on this VM do not match the installed version of
@@ -17330,7 +17378,7 @@ VirtualBox Version: 6.1
     w1-k8s-1.24.9: shared folder errors, please make sure the guest additions within the
     w1-k8s-1.24.9: virtual machine match the version of VirtualBox you have installed on
     w1-k8s-1.24.9: your host and reload your VM.
-    w1-k8s-1.24.9: 
+    w1-k8s-1.24.9:
     w1-k8s-1.24.9: Guest Additions Version: 5.2.12
     w1-k8s-1.24.9: VirtualBox Version: 6.1
 2023-06-21 13:22:03 [ INFO] Calling IN action: #<Proc:0x000000010b778a88 /opt/vagrant/embedded/gems/gems/vagrant-2.3.6/lib/vagrant/action/warden.rb:126 (lambda)>
@@ -17401,7 +17449,7 @@ echo 'w1-k8s' > /etc/hostname
 2023-06-21 13:22:08 [DEBUG] Re-using SSH connection.
 2023-06-21 13:22:08 [ INFO] Execute: ps -o comm= 1 | grep systemd (sudo=true)
 2023-06-21 13:22:09 [DEBUG] stderr: 41e57d38-b4f7-4e46-9c38-13873d338b86-vagrant-ssh
-2023-06-21 13:22:09 [DEBUG] Exit status: 0
+2023-06-21 13:22:09 [DEBUG] Exit status: 0192.168.2.192.168.2.
 2023-06-21 13:22:09 [DEBUG] Re-using SSH connection.
 2023-06-21 13:22:09 [ INFO] Execute: systemctl -q is-active systemd-networkd.service (sudo=true)
 2023-06-21 13:22:10 [DEBUG] stderr: 41e57d38-b4f7-4e46-9c38-13873d338b86-vagrant-ssh
@@ -17755,15 +17803,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:22:54 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:22:54 [ INFO] detail:     w1-k8s-1.24.9: --> Finished Dependency Resolution
     w1-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:22:55 [ INFO] detail: 
-2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:22:55 [ INFO] detail:
+2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:22:55 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: Dependencies Resolved
     w1-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:22:55 [ INFO] detail: 
-2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:22:55 [ INFO] detail:
+2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:22:55 [ INFO] detail: ================================================================================
 2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: ================================================================================
     w1-k8s-1.24.9: ================================================================================
@@ -17779,9 +17827,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:22:55 [ INFO] detail:  epel-release           noarch           7-11            extras            15 k
 2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9:  epel-release           noarch           7-11            extras            15 k
     w1-k8s-1.24.9:  epel-release           noarch           7-11            extras            15 k
-2023-06-21 13:22:55 [ INFO] detail: 
-2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:22:55 [ INFO] detail:
+2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:22:55 [ INFO] detail: Transaction Summary
 2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: Transaction Summary
     w1-k8s-1.24.9: Transaction Summary
@@ -17791,9 +17839,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:22:55 [ INFO] detail: Install  1 Package
 2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: Install  1 Package
     w1-k8s-1.24.9: Install  1 Package
-2023-06-21 13:22:55 [ INFO] detail: 
-2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:22:55 [ INFO] detail:
+2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:22:55 [ INFO] detail: Total download size: 15 k
 2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: Total download size: 15 k
     w1-k8s-1.24.9: Total download size: 15 k
@@ -17821,18 +17869,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:22:55 [ INFO] detail:   Verifying  : epel-release-7-11.noarch                                     1/1
 2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9:   Verifying  : epel-release-7-11.noarch                                     1/1
     w1-k8s-1.24.9:   Verifying  : epel-release-7-11.noarch                                     1/1
-2023-06-21 13:22:55 [ INFO] detail: 
-2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:22:55 [ INFO] detail:
+2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:22:55 [ INFO] detail: Installed:
 2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: Installed:
     w1-k8s-1.24.9: Installed:
 2023-06-21 13:22:55 [ INFO] detail:   epel-release.noarch 0:7-11
 2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9:   epel-release.noarch 0:7-11
     w1-k8s-1.24.9:   epel-release.noarch 0:7-11
-2023-06-21 13:22:55 [ INFO] detail: 
-2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:22:55 [ INFO] detail:
+2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:22:55 [ INFO] detail: Complete!
 2023-06-21 13:22:55 [ INFO] detail:     w1-k8s-1.24.9: Complete!
     w1-k8s-1.24.9: Complete!
@@ -18079,15 +18127,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:11 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9: --> Finished Dependency Resolution
     w1-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:23:11 [ INFO] detail: 
-2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:11 [ INFO] detail:
+2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:11 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9: Dependencies Resolved
     w1-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:23:11 [ INFO] detail: 
-2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:11 [ INFO] detail:
+2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:11 [ INFO] detail: ================================================================================
 2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9: ================================================================================
     w1-k8s-1.24.9: ================================================================================
@@ -18196,9 +18244,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:11 [ INFO] detail:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
 2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
     w1-k8s-1.24.9:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
-2023-06-21 13:23:11 [ INFO] detail: 
-2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:11 [ INFO] detail:
+2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:11 [ INFO] detail: Transaction Summary
 2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9: Transaction Summary
     w1-k8s-1.24.9: Transaction Summary
@@ -18208,9 +18256,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:11 [ INFO] detail: Install  1 Package (+30 Dependent packages)
 2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9: Install  1 Package (+30 Dependent packages)
     w1-k8s-1.24.9: Install  1 Package (+30 Dependent packages)
-2023-06-21 13:23:11 [ INFO] detail: 
-2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:11 [ INFO] detail:
+2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:11 [ INFO] detail: Total download size: 18 M
 2023-06-21 13:23:11 [ INFO] detail:     w1-k8s-1.24.9: Total download size: 18 M
     w1-k8s-1.24.9: Total download size: 18 M
@@ -18424,18 +18472,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:18 [ INFO] detail:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
 2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
     w1-k8s-1.24.9:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
-2023-06-21 13:23:18 [ INFO] detail: 
-2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:18 [ INFO] detail:
+2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:18 [ INFO] detail: Installed:
 2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9: Installed:
     w1-k8s-1.24.9: Installed:
 2023-06-21 13:23:18 [ INFO] detail:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
 2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
     w1-k8s-1.24.9:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
-2023-06-21 13:23:18 [ INFO] detail: 
-2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:18 [ INFO] detail:
+2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:18 [ INFO] detail: Dependency Installed:
 2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9: Dependency Installed:
     w1-k8s-1.24.9: Dependency Installed:
@@ -18529,9 +18577,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:18 [ INFO] detail:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
 2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
     w1-k8s-1.24.9:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
-2023-06-21 13:23:18 [ INFO] detail: 
-2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:18 [ INFO] detail:
+2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:18 [ INFO] detail: Complete!
 2023-06-21 13:23:18 [ INFO] detail:     w1-k8s-1.24.9: Complete!
     w1-k8s-1.24.9: Complete!
@@ -18595,15 +18643,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:29 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9: --> Finished Dependency Resolution
     w1-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:23:29 [ INFO] detail: 
-2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:29 [ INFO] detail:
+2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:29 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9: Dependencies Resolved
     w1-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:23:29 [ INFO] detail: 
-2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:29 [ INFO] detail:
+2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:29 [ INFO] detail: ================================================================================
 2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9: ================================================================================
     w1-k8s-1.24.9: ================================================================================
@@ -18634,9 +18682,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:29 [ INFO] detail:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
 2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
     w1-k8s-1.24.9:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
-2023-06-21 13:23:29 [ INFO] detail: 
-2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:29 [ INFO] detail:
+2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:29 [ INFO] detail: Transaction Summary
 2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9: Transaction Summary
     w1-k8s-1.24.9: Transaction Summary
@@ -18646,9 +18694,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:29 [ INFO] detail: Install  1 Package (+4 Dependent packages)
 2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9: Install  1 Package (+4 Dependent packages)
     w1-k8s-1.24.9: Install  1 Package (+4 Dependent packages)
-2023-06-21 13:23:29 [ INFO] detail: 
-2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:29 [ INFO] detail:
+2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:29 [ INFO] detail: Total download size: 4.9 M
 2023-06-21 13:23:29 [ INFO] detail:     w1-k8s-1.24.9: Total download size: 4.9 M
     w1-k8s-1.24.9: Total download size: 4.9 M
@@ -18706,18 +18754,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:31 [ INFO] detail:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
 2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
     w1-k8s-1.24.9:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
-2023-06-21 13:23:31 [ INFO] detail: 
-2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:31 [ INFO] detail:
+2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:31 [ INFO] detail: Installed:
 2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9: Installed:
     w1-k8s-1.24.9: Installed:
 2023-06-21 13:23:31 [ INFO] detail:   git.x86_64 0:1.8.3.1-25.el7_9
 2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9:   git.x86_64 0:1.8.3.1-25.el7_9
     w1-k8s-1.24.9:   git.x86_64 0:1.8.3.1-25.el7_9
-2023-06-21 13:23:31 [ INFO] detail: 
-2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:31 [ INFO] detail:
+2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:31 [ INFO] detail: Dependency Installed:
 2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9: Dependency Installed:
     w1-k8s-1.24.9: Dependency Installed:
@@ -18727,9 +18775,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:31 [ INFO] detail:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
 2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
     w1-k8s-1.24.9:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
-2023-06-21 13:23:31 [ INFO] detail: 
-2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:31 [ INFO] detail:
+2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:31 [ INFO] detail: Complete!
 2023-06-21 13:23:31 [ INFO] detail:     w1-k8s-1.24.9: Complete!
     w1-k8s-1.24.9: Complete!
@@ -18877,15 +18925,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:42 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9: --> Finished Dependency Resolution
     w1-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:23:42 [ INFO] detail: 
-2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:42 [ INFO] detail:
+2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:42 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9: Dependencies Resolved
     w1-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:23:42 [ INFO] detail: 
-2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:42 [ INFO] detail:
+2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:42 [ INFO] detail: ================================================================================
 2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9: ================================================================================
     w1-k8s-1.24.9: ================================================================================
@@ -18952,9 +19000,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:42 [ INFO] detail:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
 2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
     w1-k8s-1.24.9:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
-2023-06-21 13:23:42 [ INFO] detail: 
-2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:42 [ INFO] detail:
+2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:42 [ INFO] detail: Transaction Summary
 2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9: Transaction Summary
     w1-k8s-1.24.9: Transaction Summary
@@ -18964,9 +19012,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:42 [ INFO] detail: Install  3 Packages (+13 Dependent packages)
 2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9: Install  3 Packages (+13 Dependent packages)
     w1-k8s-1.24.9: Install  3 Packages (+13 Dependent packages)
-2023-06-21 13:23:42 [ INFO] detail: 
-2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:23:42 [ INFO] detail:
+2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:23:42 [ INFO] detail: Total download size: 99 M
 2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9: Total download size: 99 M
     w1-k8s-1.24.9: Total download size: 99 M
@@ -18976,7 +19024,7 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:23:42 [ INFO] detail: Downloading packages:
 2023-06-21 13:23:42 [ INFO] detail:     w1-k8s-1.24.9: Downloading packages:
     w1-k8s-1.24.9: Downloading packages:
-2023-06-21 13:23:45 [DEBUG] stderr: warning: 
+2023-06-21 13:23:45 [DEBUG] stderr: warning:
 2023-06-21 13:23:45 [DEBUG] stderr: /var/cache/yum/x86_64/7/docker-ce-stable/packages/docker-ce-20.10.15-3.el7.x86_64.rpm: Header V4 RSA/SHA512 Signature, key ID 621e9f35: NOKEY
 
 2023-06-21 13:23:45 [ INFO] detail: warning: /var/cache/yum/x86_64/7/docker-ce-stable/packages/docker-ce-20.10.15-3.el7.x86_64.rpm: Header V4 RSA/SHA512 Signature, key ID 621e9f35: NOKEY
@@ -19119,9 +19167,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:24:16 [ INFO] detail:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
 2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
     w1-k8s-1.24.9:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
-2023-06-21 13:24:16 [ INFO] detail: 
-2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:16 [ INFO] detail:
+2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:16 [ INFO] detail: Installed:
 2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9: Installed:
     w1-k8s-1.24.9: Installed:
@@ -19131,9 +19179,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:24:16 [ INFO] detail:   docker-ce-cli.x86_64 1:20.10.15-3.el7
 2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9:   docker-ce-cli.x86_64 1:20.10.15-3.el7
     w1-k8s-1.24.9:   docker-ce-cli.x86_64 1:20.10.15-3.el7
-2023-06-21 13:24:16 [ INFO] detail: 
-2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:16 [ INFO] detail:
+2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:16 [ INFO] detail: Dependency Installed:
 2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9: Dependency Installed:
     w1-k8s-1.24.9: Dependency Installed:
@@ -19176,9 +19224,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:24:16 [ INFO] detail:   slirp4netns.x86_64 0:0.4.3-4.el7_8
 2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9:   slirp4netns.x86_64 0:0.4.3-4.el7_8
     w1-k8s-1.24.9:   slirp4netns.x86_64 0:0.4.3-4.el7_8
-2023-06-21 13:24:16 [ INFO] detail: 
-2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:16 [ INFO] detail:
+2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:16 [ INFO] detail: Complete!
 2023-06-21 13:24:16 [ INFO] detail:     w1-k8s-1.24.9: Complete!
     w1-k8s-1.24.9: Complete!
@@ -19275,15 +19323,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:24:25 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9: --> Finished Dependency Resolution
     w1-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:24:25 [ INFO] detail: 
-2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:25 [ INFO] detail:
+2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:25 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9: Dependencies Resolved
     w1-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:24:25 [ INFO] detail: 
-2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:25 [ INFO] detail:
+2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:25 [ INFO] detail: ================================================================================
 2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9: ================================================================================
     w1-k8s-1.24.9: ================================================================================
@@ -19329,9 +19377,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:24:25 [ INFO] detail:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
 2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
     w1-k8s-1.24.9:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
-2023-06-21 13:24:25 [ INFO] detail: 
-2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:25 [ INFO] detail:
+2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:25 [ INFO] detail: Transaction Summary
 2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9: Transaction Summary
     w1-k8s-1.24.9: Transaction Summary
@@ -19341,9 +19389,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:24:25 [ INFO] detail: Install  3 Packages (+7 Dependent packages)
 2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9: Install  3 Packages (+7 Dependent packages)
     w1-k8s-1.24.9: Install  3 Packages (+7 Dependent packages)
-2023-06-21 13:24:25 [ INFO] detail: 
-2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:25 [ INFO] detail:
+2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:25 [ INFO] detail: Total download size: 66 M
 2023-06-21 13:24:25 [ INFO] detail:     w1-k8s-1.24.9: Total download size: 66 M
     w1-k8s-1.24.9: Total download size: 66 M
@@ -19431,18 +19479,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:24:42 [ INFO] detail:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
 2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
     w1-k8s-1.24.9:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
-2023-06-21 13:24:42 [ INFO] detail: 
-2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:42 [ INFO] detail:
+2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:42 [ INFO] detail: Installed:
 2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9: Installed:
     w1-k8s-1.24.9: Installed:
 2023-06-21 13:24:42 [ INFO] detail:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
 2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
     w1-k8s-1.24.9:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
-2023-06-21 13:24:42 [ INFO] detail: 
-2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:42 [ INFO] detail:
+2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:42 [ INFO] detail: Dependency Installed:
 2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9: Dependency Installed:
     w1-k8s-1.24.9: Dependency Installed:
@@ -19467,9 +19515,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:24:42 [ INFO] detail:   socat.x86_64 0:1.7.3.2-2.el7
 2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9:   socat.x86_64 0:1.7.3.2-2.el7
     w1-k8s-1.24.9:   socat.x86_64 0:1.7.3.2-2.el7
-2023-06-21 13:24:42 [ INFO] detail: 
-2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:42 [ INFO] detail:
+2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:42 [ INFO] detail: Complete!
 2023-06-21 13:24:42 [ INFO] detail:     w1-k8s-1.24.9: Complete!
     w1-k8s-1.24.9: Complete!
@@ -19551,9 +19599,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:24:44 [ INFO] detail: [kubelet-start] Waiting for the kubelet to perform the TLS Bootstrap...
 2023-06-21 13:24:44 [ INFO] detail:     w1-k8s-1.24.9: [kubelet-start] Waiting for the kubelet to perform the TLS Bootstrap...
     w1-k8s-1.24.9: [kubelet-start] Waiting for the kubelet to perform the TLS Bootstrap...
-2023-06-21 13:24:57 [ INFO] detail: 
-2023-06-21 13:24:57 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:57 [ INFO] detail:
+2023-06-21 13:24:57 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:57 [ INFO] detail: This node has joined the cluster:
 2023-06-21 13:24:57 [ INFO] detail:     w1-k8s-1.24.9: This node has joined the cluster:
     w1-k8s-1.24.9: This node has joined the cluster:
@@ -19563,15 +19611,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:24:57 [ INFO] detail: * The Kubelet was informed of the new secure connection details.
 2023-06-21 13:24:57 [ INFO] detail:     w1-k8s-1.24.9: * The Kubelet was informed of the new secure connection details.
     w1-k8s-1.24.9: * The Kubelet was informed of the new secure connection details.
-2023-06-21 13:24:57 [ INFO] detail: 
-2023-06-21 13:24:57 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:57 [ INFO] detail:
+2023-06-21 13:24:57 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:57 [ INFO] detail: Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
 2023-06-21 13:24:57 [ INFO] detail:     w1-k8s-1.24.9: Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
     w1-k8s-1.24.9: Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
-2023-06-21 13:24:57 [ INFO] detail: 
-2023-06-21 13:24:57 [ INFO] detail:     w1-k8s-1.24.9: 
-    w1-k8s-1.24.9: 
+2023-06-21 13:24:57 [ INFO] detail:
+2023-06-21 13:24:57 [ INFO] detail:     w1-k8s-1.24.9:
+    w1-k8s-1.24.9:
 2023-06-21 13:24:57 [DEBUG] Exit status: 0
 2023-06-21 13:24:57 [ INFO] Calling OUT action: #<Proc:0x000000010b028170 /opt/vagrant/embedded/gems/gems/vagrant-2.3.6/lib/vagrant/action/warden.rb:126 (lambda)>
 2023-06-21 13:24:57 [ INFO] Calling OUT action: #<Vagrant::Action::Builtin::Provision:0x000000010b2c81f0>
@@ -19688,14 +19736,22 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321341-0' '/etc/sysconfig/network-scr
 2023-06-21 13:24:58 [DEBUG] Command not in installer, not touching env vars.
 2023-06-21 13:24:58 [ INFO] Command not in installer, restoring original environment...
 2023-06-21 13:24:58 [DEBUG] Selecting on IO
-2023-06-21 13:24:59 [ INFO] info: [K
-[K2023-06-21 13:24:59 [ INFO] info: Progress: 30%
-Progress: 30%2023-06-21 13:25:01 [ INFO] info: [K
-[K2023-06-21 13:25:01 [ INFO] info: Progress: 50%
-Progress: 50%2023-06-21 13:25:02 [ INFO] info: [K
-[K2023-06-21 13:25:02 [ INFO] info: Progress: 70%
-Progress: 70%2023-06-21 13:25:04 [ INFO] info: [K
-[K2023-06-21 13:25:04 [ INFO] info: Progress: 90%
+2023-06-21 13:24:59 [ INFO] info:
+[K
+
+[K2023-06-21 13:24:59 [ INFO] info: Progress: 30%
+Progress: 30%2023-06-21 13:25:01 [ INFO] info:
+[K
+
+[K2023-06-21 13:25:01 [ INFO] info: Progress: 50%
+Progress: 50%2023-06-21 13:25:02 [ INFO] info:
+[K
+
+[K2023-06-21 13:25:02 [ INFO] info: Progress: 70%
+Progress: 70%2023-06-21 13:25:04 [ INFO] info:
+[K
+
+[K2023-06-21 13:25:04 [ INFO] info: Progress: 90%
 Progress: 90%2023-06-21 13:25:05 [DEBUG] Waiting for process to exit. Remaining to timeout: 31993
 2023-06-21 13:25:05 [DEBUG] Exit status: 0
 2023-06-21 13:25:05 [ INFO] Starting process: ["/usr/local/bin/VBoxManage", "list", "vms"]
@@ -19726,8 +19782,10 @@ Progress: 90%2023-06-21 13:25:05 [DEBUG] Waiting for process to exit. Remaining 
 2023-06-21 13:25:06 [DEBUG] Selecting on IO
 2023-06-21 13:25:06 [DEBUG] Waiting for process to exit. Remaining to timeout: 32000
 2023-06-21 13:25:06 [DEBUG] Exit status: 0
-2023-06-21 13:25:06 [ INFO] info: [K
-[K2023-06-21 13:25:06 [ INFO] Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::DiscardState:0x000000010b48bd20>
+2023-06-21 13:25:06 [ INFO] info:
+[K
+
+[K2023-06-21 13:25:06 [ INFO] Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::DiscardState:0x000000010b48bd20>
 2023-06-21 13:25:06 [ INFO] Starting process: ["/usr/local/bin/VBoxManage", "showvminfo", "ae32fa8d-1bff-4cfa-befd-e62f2b1e0f94", "--machinereadable"]
 2023-06-21 13:25:06 [DEBUG] Command not in installer, not touching env vars.
 2023-06-21 13:25:06 [ INFO] Command not in installer, restoring original environment...
@@ -20285,8 +20343,8 @@ Progress: 90%2023-06-21 13:25:05 [DEBUG] Waiting for process to exit. Remaining 
 2023-06-21 13:25:13 [DEBUG] Attempting to acquire process-lock: dotlock
 2023-06-21 13:25:13 [ INFO] Acquired process lock: dotlock
 2023-06-21 13:25:13 [ INFO] Released process lock: dotlock
-2023-06-21 13:25:13 [ INFO] Acquired process lock: fpcollision
-2023-06-21 13:25:13 [ INFO] Detecting any forwarded port collisions...
+2023-06-21 13:25:13 [ INFO] Acquired process lock: fpcollision192.168.2.192.168.2.
+2023-06-21 13:25:13 [ INFO] Detecting any forwarded port collisions..192.168.2.
 2023-06-21 13:25:13 [DEBUG] Extra in use: {60010=>#<Set: {"*"}>, 60101=>#<Set: {"*"}>}
 2023-06-21 13:25:13 [DEBUG] Remap: {}
 2023-06-21 13:25:13 [DEBUG] Repair: true
@@ -25064,8 +25122,8 @@ D, [2023-06-21T13:25:55.426058 #22463] DEBUG -- net.ssh.transport.algorithms[143
 * hmac_server: hmac-sha2-512-etm@openssh.com
 * compression_client: none
 * compression_server: none
-* language_client: 
-* language_server: 
+* language_client:
+* language_server:
 D, [2023-06-21T13:25:55.426076 #22463] DEBUG -- net.ssh.transport.algorithms[143e8]: exchanging keys
 D, [2023-06-21T13:25:55.429289 #22463] DEBUG -- socket[143fc]: queueing packet nr 1 type 30 len 148
 D, [2023-06-21T13:25:55.429368 #22463] DEBUG -- socket[143fc]: sent 152 bytes
@@ -25131,13 +25189,13 @@ D, [2023-06-21T13:25:55.517200 #22463] DEBUG -- net.ssh.authentication.methods.p
 2023-06-21 13:25:56 [DEBUG] Exit status: 0
 2023-06-21 13:25:56 [DEBUG]   - [1, "ssh", 60102, 22, ""]
 2023-06-21 13:25:56 [DEBUG] Checking key permissions: /Users/mz01-hj/.vagrant.d/insecure_private_key
-2023-06-21 13:25:56 [ INFO] detail: 
+2023-06-21 13:25:56 [ INFO] detail:
 Vagrant insecure key detected. Vagrant will automatically replace
 this with a newly generated keypair for better security.
-2023-06-21 13:25:56 [ INFO] detail:     w2-k8s-1.24.9: 
+2023-06-21 13:25:56 [ INFO] detail:     w2-k8s-1.24.9:
     w2-k8s-1.24.9: Vagrant insecure key detected. Vagrant will automatically replace
     w2-k8s-1.24.9: this with a newly generated keypair for better security.
-    w2-k8s-1.24.9: 
+    w2-k8s-1.24.9:
     w2-k8s-1.24.9: Vagrant insecure key detected. Vagrant will automatically replace
     w2-k8s-1.24.9: this with a newly generated keypair for better security.
 2023-06-21 13:25:56 [DEBUG] Checking whether SSH is ready...
@@ -25203,10 +25261,10 @@ exit 1
 2023-06-21 13:25:57 [DEBUG] Re-using SSH connection.
 2023-06-21 13:25:57 [ INFO] Execute: cat /etc/pld-release (sudo=false)
 2023-06-21 13:25:57 [DEBUG] stderr: 41e57d38-b4f7-4e46-9c38-13873d338b86-vagrant-ssh
-2023-06-21 13:25:57 [DEBUG] stderr: cat: 
+2023-06-21 13:25:57 [DEBUG] stderr: cat:
 2023-06-21 13:25:57 [DEBUG] stderr: /etc/pld-release
 2023-06-21 13:25:57 [DEBUG] stderr: : No such file or directory
-2023-06-21 13:25:57 [DEBUG] stderr: 
+2023-06-21 13:25:57 [DEBUG] stderr:
 
 2023-06-21 13:25:57 [DEBUG] Exit status: 1
 2023-06-21 13:25:57 [DEBUG] Trying: amazon
@@ -25269,11 +25327,11 @@ exit 1
 2023-06-21 13:25:57 [DEBUG] Checking in: linux
 2023-06-21 13:25:57 [DEBUG] Found cap: remove_public_key in linux
 2023-06-21 13:25:57 [ INFO] Inserting key to avoid password: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVoNv18x0LfMN2uNrpkwSIX5y3BhZQxBvjcXxtgQNVnrwwPu+/UxzAeU1u8dBL5lR/8n/Aa71oQboxihgpIHTxdH8M922mBu7Iqj+XTtYLYxCiQdMTxOHHZl5+hzhsqCKbT7nJd67RQRJ/OMInO1UEPHve/WWP/ymmTlHqnnjULQ5DNroCXzbfAP7OnrhXG35VcKv2XIoy4Lxcvl/JI2TstpzOKiLNICk+aGioUZihrVteOxU0YXlLC6Ay+NP8PL9+LciZWHBdBtpcaE5HZnudhHuj732111vtTJxcnYpc1k27f7EyIkmAxm46x39XSNrl0vC/mO8qflrV6rpQGP7H vagrant
-2023-06-21 13:25:57 [ INFO] detail: 
+2023-06-21 13:25:57 [ INFO] detail:
 Inserting generated public key within guest...
-2023-06-21 13:25:57 [ INFO] detail:     w2-k8s-1.24.9: 
+2023-06-21 13:25:57 [ INFO] detail:     w2-k8s-1.24.9:
     w2-k8s-1.24.9: Inserting generated public key within guest...
-    w2-k8s-1.24.9: 
+    w2-k8s-1.24.9:
     w2-k8s-1.24.9: Inserting generated public key within guest...
 2023-06-21 13:25:57 [DEBUG] Checking whether SSH is ready...
 2023-06-21 13:25:57 [DEBUG] Re-using SSH connection.
@@ -25406,8 +25464,8 @@ D, [2023-06-21T13:25:59.067400 #22463] DEBUG -- net.ssh.transport.algorithms[148
 * hmac_server: hmac-sha2-512-etm@openssh.com
 * compression_client: none
 * compression_server: none
-* language_client: 
-* language_server: 
+* language_client:
+* language_server:
 D, [2023-06-21T13:25:59.067419 #22463] DEBUG -- net.ssh.transport.algorithms[1485c]: exchanging keys
 D, [2023-06-21T13:25:59.070642 #22463] DEBUG -- socket[14870]: queueing packet nr 1 type 30 len 148
 D, [2023-06-21T13:25:59.070714 #22463] DEBUG -- socket[14870]: sent 152 bytes
@@ -25500,7 +25558,7 @@ VirtualBox Version: 6.1
     w2-k8s-1.24.9: shared folder errors, please make sure the guest additions within the
     w2-k8s-1.24.9: virtual machine match the version of VirtualBox you have installed on
     w2-k8s-1.24.9: your host and reload your VM.
-    w2-k8s-1.24.9: 
+    w2-k8s-1.24.9:
     w2-k8s-1.24.9: Guest Additions Version: 5.2.12
     w2-k8s-1.24.9: VirtualBox Version: 6.1
     w2-k8s-1.24.9: The guest additions on this VM do not match the installed version of
@@ -25509,7 +25567,7 @@ VirtualBox Version: 6.1
     w2-k8s-1.24.9: shared folder errors, please make sure the guest additions within the
     w2-k8s-1.24.9: virtual machine match the version of VirtualBox you have installed on
     w2-k8s-1.24.9: your host and reload your VM.
-    w2-k8s-1.24.9: 
+    w2-k8s-1.24.9:
     w2-k8s-1.24.9: Guest Additions Version: 5.2.12
     w2-k8s-1.24.9: VirtualBox Version: 6.1
 2023-06-21 13:26:00 [ INFO] Calling IN action: #<Proc:0x000000010b7bacf8 /opt/vagrant/embedded/gems/gems/vagrant-2.3.6/lib/vagrant/action/warden.rb:126 (lambda)>
@@ -25570,7 +25628,7 @@ echo 'w2-k8s' > /etc/hostname
 2023-06-21 13:26:00 [DEBUG] stderr: 41e57d38-b4f7-4e46-9c38-13873d338b86-vagrant-ssh
 2023-06-21 13:26:00 [DEBUG] Exit status: 0
 2023-06-21 13:26:00 [DEBUG] Re-using SSH connection.
-2023-06-21 13:26:00 [ INFO] Execute: command -v hostnamectl && hostnamectl (sudo=false)
+2023-06-21 13:26:00 [ INFO] Execute: command -v hostnamectl && hostnamectl (sudo=false)192.168.2.192.168.2.
 2023-06-21 13:26:00 [DEBUG] stderr: 41e57d38-b4f7-4e46-9c38-13873d338b86-vagrant-ssh
 2023-06-21 13:26:00 [DEBUG] Exit status: 0
 2023-06-21 13:26:01 [DEBUG] Re-using SSH connection.
@@ -25934,15 +25992,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:26:24 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:26:24 [ INFO] detail:     w2-k8s-1.24.9: --> Finished Dependency Resolution
     w2-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:26:25 [ INFO] detail: 
-2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:25 [ INFO] detail:
+2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:25 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: Dependencies Resolved
     w2-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:26:25 [ INFO] detail: 
-2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:25 [ INFO] detail:
+2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:25 [ INFO] detail: ================================================================================
 2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: ================================================================================
     w2-k8s-1.24.9: ================================================================================
@@ -25958,9 +26016,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:26:25 [ INFO] detail:  epel-release           noarch           7-11            extras            15 k
 2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9:  epel-release           noarch           7-11            extras            15 k
     w2-k8s-1.24.9:  epel-release           noarch           7-11            extras            15 k
-2023-06-21 13:26:25 [ INFO] detail: 
-2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:25 [ INFO] detail:
+2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:25 [ INFO] detail: Transaction Summary
 2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: Transaction Summary
     w2-k8s-1.24.9: Transaction Summary
@@ -25970,9 +26028,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:26:25 [ INFO] detail: Install  1 Package
 2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: Install  1 Package
     w2-k8s-1.24.9: Install  1 Package
-2023-06-21 13:26:25 [ INFO] detail: 
-2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:25 [ INFO] detail:
+2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:25 [ INFO] detail: Total download size: 15 k
 2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: Total download size: 15 k
     w2-k8s-1.24.9: Total download size: 15 k
@@ -26000,18 +26058,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:26:25 [ INFO] detail:   Verifying  : epel-release-7-11.noarch                                     1/1
 2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9:   Verifying  : epel-release-7-11.noarch                                     1/1
     w2-k8s-1.24.9:   Verifying  : epel-release-7-11.noarch                                     1/1
-2023-06-21 13:26:25 [ INFO] detail: 
-2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:25 [ INFO] detail:
+2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:25 [ INFO] detail: Installed:
 2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: Installed:
     w2-k8s-1.24.9: Installed:
 2023-06-21 13:26:25 [ INFO] detail:   epel-release.noarch 0:7-11
 2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9:   epel-release.noarch 0:7-11
     w2-k8s-1.24.9:   epel-release.noarch 0:7-11
-2023-06-21 13:26:25 [ INFO] detail: 
-2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:25 [ INFO] detail:
+2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:25 [ INFO] detail: Complete!
 2023-06-21 13:26:25 [ INFO] detail:     w2-k8s-1.24.9: Complete!
     w2-k8s-1.24.9: Complete!
@@ -26258,15 +26316,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:26:44 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9: --> Finished Dependency Resolution
     w2-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:26:44 [ INFO] detail: 
-2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:44 [ INFO] detail:
+2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:44 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9: Dependencies Resolved
     w2-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:26:44 [ INFO] detail: 
-2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:44 [ INFO] detail:
+2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:44 [ INFO] detail: ================================================================================
 2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9: ================================================================================
     w2-k8s-1.24.9: ================================================================================
@@ -26375,9 +26433,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:26:44 [ INFO] detail:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
 2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
     w2-k8s-1.24.9:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
-2023-06-21 13:26:44 [ INFO] detail: 
-2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:44 [ INFO] detail:
+2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:44 [ INFO] detail: Transaction Summary
 2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9: Transaction Summary
     w2-k8s-1.24.9: Transaction Summary
@@ -26387,9 +26445,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:26:44 [ INFO] detail: Install  1 Package (+30 Dependent packages)
 2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9: Install  1 Package (+30 Dependent packages)
     w2-k8s-1.24.9: Install  1 Package (+30 Dependent packages)
-2023-06-21 13:26:44 [ INFO] detail: 
-2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:44 [ INFO] detail:
+2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:44 [ INFO] detail: Total download size: 18 M
 2023-06-21 13:26:44 [ INFO] detail:     w2-k8s-1.24.9: Total download size: 18 M
     w2-k8s-1.24.9: Total download size: 18 M
@@ -26603,18 +26661,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:26:51 [ INFO] detail:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
 2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
     w2-k8s-1.24.9:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
-2023-06-21 13:26:51 [ INFO] detail: 
-2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:51 [ INFO] detail:
+2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:51 [ INFO] detail: Installed:
 2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9: Installed:
     w2-k8s-1.24.9: Installed:
 2023-06-21 13:26:51 [ INFO] detail:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
 2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
     w2-k8s-1.24.9:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
-2023-06-21 13:26:51 [ INFO] detail: 
-2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:51 [ INFO] detail:
+2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:51 [ INFO] detail: Dependency Installed:
 2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9: Dependency Installed:
     w2-k8s-1.24.9: Dependency Installed:
@@ -26708,9 +26766,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:26:51 [ INFO] detail:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
 2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
     w2-k8s-1.24.9:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
-2023-06-21 13:26:51 [ INFO] detail: 
-2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:26:51 [ INFO] detail:
+2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:26:51 [ INFO] detail: Complete!
 2023-06-21 13:26:51 [ INFO] detail:     w2-k8s-1.24.9: Complete!
     w2-k8s-1.24.9: Complete!
@@ -26774,15 +26832,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:02 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9: --> Finished Dependency Resolution
     w2-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:27:02 [ INFO] detail: 
-2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:02 [ INFO] detail:
+2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:02 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9: Dependencies Resolved
     w2-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:27:02 [ INFO] detail: 
-2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:02 [ INFO] detail:
+2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:02 [ INFO] detail: ================================================================================
 2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9: ================================================================================
     w2-k8s-1.24.9: ================================================================================
@@ -26813,9 +26871,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:02 [ INFO] detail:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
 2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
     w2-k8s-1.24.9:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
-2023-06-21 13:27:02 [ INFO] detail: 
-2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:02 [ INFO] detail:
+2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:02 [ INFO] detail: Transaction Summary
 2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9: Transaction Summary
     w2-k8s-1.24.9: Transaction Summary
@@ -26825,9 +26883,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:02 [ INFO] detail: Install  1 Package (+4 Dependent packages)
 2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9: Install  1 Package (+4 Dependent packages)
     w2-k8s-1.24.9: Install  1 Package (+4 Dependent packages)
-2023-06-21 13:27:02 [ INFO] detail: 
-2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:02 [ INFO] detail:
+2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:02 [ INFO] detail: Total download size: 4.9 M
 2023-06-21 13:27:02 [ INFO] detail:     w2-k8s-1.24.9: Total download size: 4.9 M
     w2-k8s-1.24.9: Total download size: 4.9 M
@@ -26885,18 +26943,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:04 [ INFO] detail:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
 2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
     w2-k8s-1.24.9:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
-2023-06-21 13:27:04 [ INFO] detail: 
-2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:04 [ INFO] detail:
+2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:04 [ INFO] detail: Installed:
 2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9: Installed:
     w2-k8s-1.24.9: Installed:
 2023-06-21 13:27:04 [ INFO] detail:   git.x86_64 0:1.8.3.1-25.el7_9
 2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9:   git.x86_64 0:1.8.3.1-25.el7_9
     w2-k8s-1.24.9:   git.x86_64 0:1.8.3.1-25.el7_9
-2023-06-21 13:27:04 [ INFO] detail: 
-2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:04 [ INFO] detail:
+2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:04 [ INFO] detail: Dependency Installed:
 2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9: Dependency Installed:
     w2-k8s-1.24.9: Dependency Installed:
@@ -26906,9 +26964,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:04 [ INFO] detail:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
 2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
     w2-k8s-1.24.9:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
-2023-06-21 13:27:04 [ INFO] detail: 
-2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:04 [ INFO] detail:
+2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:04 [ INFO] detail: Complete!
 2023-06-21 13:27:04 [ INFO] detail:     w2-k8s-1.24.9: Complete!
     w2-k8s-1.24.9: Complete!
@@ -27056,15 +27114,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:08 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:27:08 [ INFO] detail:     w2-k8s-1.24.9: --> Finished Dependency Resolution
     w2-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:27:09 [ INFO] detail: 
-2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:09 [ INFO] detail:
+2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:09 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9: Dependencies Resolved
     w2-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:27:09 [ INFO] detail: 
-2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:09 [ INFO] detail:
+2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:09 [ INFO] detail: ================================================================================
 2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9: ================================================================================
     w2-k8s-1.24.9: ================================================================================
@@ -27131,9 +27189,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:09 [ INFO] detail:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
 2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
     w2-k8s-1.24.9:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
-2023-06-21 13:27:09 [ INFO] detail: 
-2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:09 [ INFO] detail:
+2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:09 [ INFO] detail: Transaction Summary
 2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9: Transaction Summary
     w2-k8s-1.24.9: Transaction Summary
@@ -27143,9 +27201,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:09 [ INFO] detail: Install  3 Packages (+13 Dependent packages)
 2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9: Install  3 Packages (+13 Dependent packages)
     w2-k8s-1.24.9: Install  3 Packages (+13 Dependent packages)
-2023-06-21 13:27:09 [ INFO] detail: 
-2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:09 [ INFO] detail:
+2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:09 [ INFO] detail: Total download size: 99 M
 2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9: Total download size: 99 M
     w2-k8s-1.24.9: Total download size: 99 M
@@ -27155,7 +27213,7 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:09 [ INFO] detail: Downloading packages:
 2023-06-21 13:27:09 [ INFO] detail:     w2-k8s-1.24.9: Downloading packages:
     w2-k8s-1.24.9: Downloading packages:
-2023-06-21 13:27:12 [DEBUG] stderr: warning: 
+2023-06-21 13:27:12 [DEBUG] stderr: warning:
 2023-06-21 13:27:12 [DEBUG] stderr: /var/cache/yum/x86_64/7/docker-ce-stable/packages/docker-ce-20.10.15-3.el7.x86_64.rpm: Header V4 RSA/SHA512 Signature, key ID 621e9f35: NOKEY
 
 2023-06-21 13:27:12 [ INFO] detail: warning: /var/cache/yum/x86_64/7/docker-ce-stable/packages/docker-ce-20.10.15-3.el7.x86_64.rpm: Header V4 RSA/SHA512 Signature, key ID 621e9f35: NOKEY
@@ -27298,9 +27356,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:40 [ INFO] detail:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
 2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
     w2-k8s-1.24.9:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
-2023-06-21 13:27:40 [ INFO] detail: 
-2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:40 [ INFO] detail:
+2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:40 [ INFO] detail: Installed:
 2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9: Installed:
     w2-k8s-1.24.9: Installed:
@@ -27310,9 +27368,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:40 [ INFO] detail:   docker-ce-cli.x86_64 1:20.10.15-3.el7
 2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9:   docker-ce-cli.x86_64 1:20.10.15-3.el7
     w2-k8s-1.24.9:   docker-ce-cli.x86_64 1:20.10.15-3.el7
-2023-06-21 13:27:40 [ INFO] detail: 
-2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:40 [ INFO] detail:
+2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:40 [ INFO] detail: Dependency Installed:
 2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9: Dependency Installed:
     w2-k8s-1.24.9: Dependency Installed:
@@ -27355,9 +27413,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:40 [ INFO] detail:   slirp4netns.x86_64 0:0.4.3-4.el7_8
 2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9:   slirp4netns.x86_64 0:0.4.3-4.el7_8
     w2-k8s-1.24.9:   slirp4netns.x86_64 0:0.4.3-4.el7_8
-2023-06-21 13:27:40 [ INFO] detail: 
-2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:40 [ INFO] detail:
+2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:40 [ INFO] detail: Complete!
 2023-06-21 13:27:40 [ INFO] detail:     w2-k8s-1.24.9: Complete!
     w2-k8s-1.24.9: Complete!
@@ -27454,15 +27512,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:49 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9: --> Finished Dependency Resolution
     w2-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:27:49 [ INFO] detail: 
-2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:49 [ INFO] detail:
+2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:49 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9: Dependencies Resolved
     w2-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:27:49 [ INFO] detail: 
-2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:49 [ INFO] detail:
+2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:49 [ INFO] detail: ================================================================================
 2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9: ================================================================================
     w2-k8s-1.24.9: ================================================================================
@@ -27508,9 +27566,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:49 [ INFO] detail:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
 2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
     w2-k8s-1.24.9:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
-2023-06-21 13:27:49 [ INFO] detail: 
-2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:49 [ INFO] detail:
+2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:49 [ INFO] detail: Transaction Summary
 2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9: Transaction Summary
     w2-k8s-1.24.9: Transaction Summary
@@ -27520,9 +27578,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:27:49 [ INFO] detail: Install  3 Packages (+7 Dependent packages)
 2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9: Install  3 Packages (+7 Dependent packages)
     w2-k8s-1.24.9: Install  3 Packages (+7 Dependent packages)
-2023-06-21 13:27:49 [ INFO] detail: 
-2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:27:49 [ INFO] detail:
+2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:27:49 [ INFO] detail: Total download size: 66 M
 2023-06-21 13:27:49 [ INFO] detail:     w2-k8s-1.24.9: Total download size: 66 M
     w2-k8s-1.24.9: Total download size: 66 M
@@ -27610,18 +27668,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:28:04 [ INFO] detail:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
 2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
     w2-k8s-1.24.9:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
-2023-06-21 13:28:04 [ INFO] detail: 
-2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:28:04 [ INFO] detail:
+2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:28:04 [ INFO] detail: Installed:
 2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9: Installed:
     w2-k8s-1.24.9: Installed:
 2023-06-21 13:28:04 [ INFO] detail:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
 2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
     w2-k8s-1.24.9:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
-2023-06-21 13:28:04 [ INFO] detail: 
-2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:28:04 [ INFO] detail:
+2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:28:04 [ INFO] detail: Dependency Installed:
 2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9: Dependency Installed:
     w2-k8s-1.24.9: Dependency Installed:
@@ -27646,9 +27704,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:28:04 [ INFO] detail:   socat.x86_64 0:1.7.3.2-2.el7
 2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9:   socat.x86_64 0:1.7.3.2-2.el7
     w2-k8s-1.24.9:   socat.x86_64 0:1.7.3.2-2.el7
-2023-06-21 13:28:04 [ INFO] detail: 
-2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:28:04 [ INFO] detail:
+2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:28:04 [ INFO] detail: Complete!
 2023-06-21 13:28:04 [ INFO] detail:     w2-k8s-1.24.9: Complete!
     w2-k8s-1.24.9: Complete!
@@ -27730,9 +27788,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:28:07 [ INFO] detail: [kubelet-start] Waiting for the kubelet to perform the TLS Bootstrap...
 2023-06-21 13:28:07 [ INFO] detail:     w2-k8s-1.24.9: [kubelet-start] Waiting for the kubelet to perform the TLS Bootstrap...
     w2-k8s-1.24.9: [kubelet-start] Waiting for the kubelet to perform the TLS Bootstrap...
-2023-06-21 13:28:20 [ INFO] detail: 
-2023-06-21 13:28:20 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:28:20 [ INFO] detail:
+2023-06-21 13:28:20 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:28:20 [ INFO] detail: This node has joined the cluster:
 2023-06-21 13:28:20 [ INFO] detail:     w2-k8s-1.24.9: This node has joined the cluster:
     w2-k8s-1.24.9: This node has joined the cluster:
@@ -27742,15 +27800,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:28:20 [ INFO] detail: * The Kubelet was informed of the new secure connection details.
 2023-06-21 13:28:20 [ INFO] detail:     w2-k8s-1.24.9: * The Kubelet was informed of the new secure connection details.
     w2-k8s-1.24.9: * The Kubelet was informed of the new secure connection details.
-2023-06-21 13:28:20 [ INFO] detail: 
-2023-06-21 13:28:20 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:28:20 [ INFO] detail:
+2023-06-21 13:28:20 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:28:20 [ INFO] detail: Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
 2023-06-21 13:28:20 [ INFO] detail:     w2-k8s-1.24.9: Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
     w2-k8s-1.24.9: Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
-2023-06-21 13:28:20 [ INFO] detail: 
-2023-06-21 13:28:20 [ INFO] detail:     w2-k8s-1.24.9: 
-    w2-k8s-1.24.9: 
+2023-06-21 13:28:20 [ INFO] detail:
+2023-06-21 13:28:20 [ INFO] detail:     w2-k8s-1.24.9:
+    w2-k8s-1.24.9:
 2023-06-21 13:28:20 [DEBUG] Exit status: 0
 2023-06-21 13:28:20 [ INFO] Calling OUT action: #<Proc:0x000000010aff1f58 /opt/vagrant/embedded/gems/gems/vagrant-2.3.6/lib/vagrant/action/warden.rb:126 (lambda)>
 2023-06-21 13:28:20 [ INFO] Calling OUT action: #<Vagrant::Action::Builtin::Provision:0x000000010b403038>
@@ -27867,14 +27925,22 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321566-0' '/etc/sysconfig/network-scr
 2023-06-21 13:28:21 [DEBUG] Command not in installer, not touching env vars.
 2023-06-21 13:28:21 [ INFO] Command not in installer, restoring original environment...
 2023-06-21 13:28:21 [DEBUG] Selecting on IO
-2023-06-21 13:28:22 [ INFO] info: [K
-[K2023-06-21 13:28:22 [ INFO] info: Progress: 30%
-Progress: 30%2023-06-21 13:28:24 [ INFO] info: [K
-[K2023-06-21 13:28:24 [ INFO] info: Progress: 50%
-Progress: 50%2023-06-21 13:28:25 [ INFO] info: [K
-[K2023-06-21 13:28:25 [ INFO] info: Progress: 70%
-Progress: 70%2023-06-21 13:28:27 [ INFO] info: [K
-[K2023-06-21 13:28:27 [ INFO] info: Progress: 90%
+2023-06-21 13:28:22 [ INFO] info:
+[K
+
+[K2023-06-21 13:28:22 [ INFO] info: Progress: 30%
+Progress: 30%2023-06-21 13:28:24 [ INFO] info:
+[K
+
+[K2023-06-21 13:28:24 [ INFO] info: Progress: 50%
+Progress: 50%2023-06-21 13:28:25 [ INFO] info:
+[K
+
+[K2023-06-21 13:28:25 [ INFO] info: Progress: 70%
+Progress: 70%2023-06-21 13:28:27 [ INFO] info:
+[K
+
+[K2023-06-21 13:28:27 [ INFO] info: Progress: 90%
 Progress: 90%2023-06-21 13:28:28 [DEBUG] Waiting for process to exit. Remaining to timeout: 31993
 2023-06-21 13:28:28 [DEBUG] Exit status: 0
 2023-06-21 13:28:28 [ INFO] Starting process: ["/usr/local/bin/VBoxManage", "list", "vms"]
@@ -27905,8 +27971,10 @@ Progress: 90%2023-06-21 13:28:28 [DEBUG] Waiting for process to exit. Remaining 
 2023-06-21 13:28:29 [DEBUG] Selecting on IO
 2023-06-21 13:28:29 [DEBUG] Waiting for process to exit. Remaining to timeout: 32000
 2023-06-21 13:28:29 [DEBUG] Exit status: 0
-2023-06-21 13:28:29 [ INFO] info: [K
-[K2023-06-21 13:28:29 [ INFO] Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::DiscardState:0x000000010b9b3f28>
+2023-06-21 13:28:29 [ INFO] info:
+[K
+
+[K2023-06-21 13:28:29 [ INFO] Calling IN action: #<VagrantPlugins::ProviderVirtualBox::Action::DiscardState:0x000000010b9b3f28>
 2023-06-21 13:28:29 [ INFO] Starting process: ["/usr/local/bin/VBoxManage", "showvminfo", "8e9161b9-6228-4cc3-a63f-1ce9562151d3", "--machinereadable"]
 2023-06-21 13:28:29 [DEBUG] Command not in installer, not touching env vars.
 2023-06-21 13:28:29 [ INFO] Command not in installer, restoring original environment...
@@ -28462,8 +28530,8 @@ Progress: 90%2023-06-21 13:28:28 [DEBUG] Waiting for process to exit. Remaining 
 2023-06-21 13:28:35 [DEBUG]   - [1, "ssh", 60102, 22, ""]
 2023-06-21 13:28:35 [DEBUG] read_forward_ports: uuid=8e9161b9-6228-4cc3-a63f-1ce9562151d3 active_only=false
 2023-06-21 13:28:35 [ INFO] Starting process: ["/usr/local/bin/VBoxManage", "showvminfo", "8e9161b9-6228-4cc3-a63f-1ce9562151d3", "--machinereadable"]
-2023-06-21 13:28:35 [DEBUG] Command not in installer, not touching env vars.
-2023-06-21 13:28:35 [ INFO] Command not in installer, restoring original environment...
+2023-06-21 13:28:35 [DEBUG] Command not in installer, not touching en192.168.2.192.168.2.
+2023-06-21 13:28:35 [ INFO] Command not in installer, restoring origi192.168.2.nment...
 2023-06-21 13:28:35 [DEBUG] Selecting on IO
 2023-06-21 13:28:35 [DEBUG] Waiting for process to exit. Remaining to timeout: 32000
 2023-06-21 13:28:35 [DEBUG] Exit status: 0
@@ -33212,8 +33280,8 @@ D, [2023-06-21T13:29:16.964527 #22463] DEBUG -- net.ssh.transport.algorithms[16c
 * hmac_server: hmac-sha2-512-etm@openssh.com
 * compression_client: none
 * compression_server: none
-* language_client: 
-* language_server: 
+* language_client:
+* language_server:
 D, [2023-06-21T13:29:16.964548 #22463] DEBUG -- net.ssh.transport.algorithms[16c4c]: exchanging keys
 D, [2023-06-21T13:29:16.967807 #22463] DEBUG -- socket[16c60]: queueing packet nr 1 type 30 len 148
 D, [2023-06-21T13:29:16.967878 #22463] DEBUG -- socket[16c60]: sent 152 bytes
@@ -33281,13 +33349,13 @@ D, [2023-06-21T13:29:17.065907 #22463] DEBUG -- net.ssh.authentication.methods.p
 2023-06-21 13:29:17 [DEBUG] Exit status: 0
 2023-06-21 13:29:17 [DEBUG]   - [1, "ssh", 60103, 22, ""]
 2023-06-21 13:29:17 [DEBUG] Checking key permissions: /Users/mz01-hj/.vagrant.d/insecure_private_key
-2023-06-21 13:29:17 [ INFO] detail: 
+2023-06-21 13:29:17 [ INFO] detail:
 Vagrant insecure key detected. Vagrant will automatically replace
 this with a newly generated keypair for better security.
-2023-06-21 13:29:17 [ INFO] detail:     w3-k8s-1.24.9: 
+2023-06-21 13:29:17 [ INFO] detail:     w3-k8s-1.24.9:
     w3-k8s-1.24.9: Vagrant insecure key detected. Vagrant will automatically replace
     w3-k8s-1.24.9: this with a newly generated keypair for better security.
-    w3-k8s-1.24.9: 
+    w3-k8s-1.24.9:
     w3-k8s-1.24.9: Vagrant insecure key detected. Vagrant will automatically replace
     w3-k8s-1.24.9: this with a newly generated keypair for better security.
 2023-06-21 13:29:17 [DEBUG] Checking whether SSH is ready...
@@ -33353,10 +33421,10 @@ exit 1
 2023-06-21 13:29:18 [DEBUG] Re-using SSH connection.
 2023-06-21 13:29:18 [ INFO] Execute: cat /etc/pld-release (sudo=false)
 2023-06-21 13:29:18 [DEBUG] stderr: 41e57d38-b4f7-4e46-9c38-13873d338b86-vagrant-ssh
-2023-06-21 13:29:18 [DEBUG] stderr: cat: 
+2023-06-21 13:29:18 [DEBUG] stderr: cat:
 2023-06-21 13:29:18 [DEBUG] stderr: /etc/pld-release
 2023-06-21 13:29:18 [DEBUG] stderr: : No such file or directory
-2023-06-21 13:29:18 [DEBUG] stderr: 
+2023-06-21 13:29:18 [DEBUG] stderr:
 
 2023-06-21 13:29:18 [DEBUG] Exit status: 1
 2023-06-21 13:29:18 [DEBUG] Trying: amazon
@@ -33413,11 +33481,11 @@ exit 1
 2023-06-21 13:29:18 [DEBUG] Checking in: linux
 2023-06-21 13:29:18 [DEBUG] Found cap: remove_public_key in linux
 2023-06-21 13:29:19 [ INFO] Inserting key to avoid password: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnHTuIByYsu7YJYrln+da3h3Qfu3v6KIvEQ1HvX9TpcVrlVy/cdNxWw7Y4Ph0jconZb8GbssXvTaixogNkTkkHbmhDgqbVPEIIprCccVEfATTzrF0fPGSI1CycDKvhnac6VzlaA+UTDghcxFsfjCWNEaIAs2NoWjdlBiKy+9/sk6027e7oNZh5cPAhSMxHYkButLR/lRa4xIJsizKgV455UjANSclw2KiUc/KnnqS+pSUeYA+teXnT2pL3JWRGdUGIJY6bRmeqVf4G8jrP0RfcQ7ZaLECR1UbiEYwhn2qq51J/VGJPHI+nUwxqA2PCseMo5f7sb05MY8rfnNEdHBtR vagrant
-2023-06-21 13:29:19 [ INFO] detail: 
+2023-06-21 13:29:19 [ INFO] detail:
 Inserting generated public key within guest...
-2023-06-21 13:29:19 [ INFO] detail:     w3-k8s-1.24.9: 
+2023-06-21 13:29:19 [ INFO] detail:     w3-k8s-1.24.9:
     w3-k8s-1.24.9: Inserting generated public key within guest...
-    w3-k8s-1.24.9: 
+    w3-k8s-1.24.9:
     w3-k8s-1.24.9: Inserting generated public key within guest...
 2023-06-21 13:29:19 [DEBUG] Checking whether SSH is ready...
 2023-06-21 13:29:19 [DEBUG] Re-using SSH connection.
@@ -33554,8 +33622,8 @@ D, [2023-06-21T13:29:20.308024 #22463] DEBUG -- net.ssh.transport.algorithms[170
 * hmac_server: hmac-sha2-512-etm@openssh.com
 * compression_client: none
 * compression_server: none
-* language_client: 
-* language_server: 
+* language_client:
+* language_server:
 D, [2023-06-21T13:29:20.308039 #22463] DEBUG -- net.ssh.transport.algorithms[170c0]: exchanging keys
 D, [2023-06-21T13:29:20.311157 #22463] DEBUG -- socket[170d4]: queueing packet nr 1 type 30 len 148
 D, [2023-06-21T13:29:20.311237 #22463] DEBUG -- socket[170d4]: sent 152 bytes
@@ -33644,7 +33712,7 @@ VirtualBox Version: 6.1
     w3-k8s-1.24.9: shared folder errors, please make sure the guest additions within the
     w3-k8s-1.24.9: virtual machine match the version of VirtualBox you have installed on
     w3-k8s-1.24.9: your host and reload your VM.
-    w3-k8s-1.24.9: 
+    w3-k8s-1.24.9:
     w3-k8s-1.24.9: Guest Additions Version: 5.2.12
     w3-k8s-1.24.9: VirtualBox Version: 6.1
     w3-k8s-1.24.9: The guest additions on this VM do not match the installed version of
@@ -33653,7 +33721,7 @@ VirtualBox Version: 6.1
     w3-k8s-1.24.9: shared folder errors, please make sure the guest additions within the
     w3-k8s-1.24.9: virtual machine match the version of VirtualBox you have installed on
     w3-k8s-1.24.9: your host and reload your VM.
-    w3-k8s-1.24.9: 
+    w3-k8s-1.24.9:
     w3-k8s-1.24.9: Guest Additions Version: 5.2.12
     w3-k8s-1.24.9: VirtualBox Version: 6.1
 2023-06-21 13:29:21 [ INFO] Calling IN action: #<Proc:0x000000010b712378 /opt/vagrant/embedded/gems/gems/vagrant-2.3.6/lib/vagrant/action/warden.rb:126 (lambda)>
@@ -33704,7 +33772,7 @@ VirtualBox Version: 6.1
 2023-06-21 13:29:21 [DEBUG] Re-using SSH connection.
 2023-06-21 13:29:21 [ INFO] Execute: # Update sysconfig
 if [ -f /etc/sysconfig/network ]; then
-  sed -i 's/\(HOSTNAME=\).*/\1w3-k8s/' /etc/sysconfig/network
+  sed -i 's/\(HOSTNAME=\).*/\1w3-k8s/' /etc/sysconfig/network192.168.2.192.168.2.
 fi
 # Update DNS
 find /etc/sysconfig/network-scripts -maxdepth 1 -type f -name 'ifcfg-*' | xargs -r sed -i 's/\(DHCP_HOSTNAME=\).*/\1"w3-k8s"/'
@@ -34078,15 +34146,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:29:39 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9: --> Finished Dependency Resolution
     w3-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:29:39 [ INFO] detail: 
-2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:29:39 [ INFO] detail:
+2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:29:39 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9: Dependencies Resolved
     w3-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:29:39 [ INFO] detail: 
-2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:29:39 [ INFO] detail:
+2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:29:39 [ INFO] detail: ================================================================================
 2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9: ================================================================================
     w3-k8s-1.24.9: ================================================================================
@@ -34102,9 +34170,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:29:39 [ INFO] detail:  epel-release           noarch           7-11            extras            15 k
 2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9:  epel-release           noarch           7-11            extras            15 k
     w3-k8s-1.24.9:  epel-release           noarch           7-11            extras            15 k
-2023-06-21 13:29:39 [ INFO] detail: 
-2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:29:39 [ INFO] detail:
+2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:29:39 [ INFO] detail: Transaction Summary
 2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9: Transaction Summary
     w3-k8s-1.24.9: Transaction Summary
@@ -34114,9 +34182,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:29:39 [ INFO] detail: Install  1 Package
 2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9: Install  1 Package
     w3-k8s-1.24.9: Install  1 Package
-2023-06-21 13:29:39 [ INFO] detail: 
-2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:29:39 [ INFO] detail:
+2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:29:39 [ INFO] detail: Total download size: 15 k
 2023-06-21 13:29:39 [ INFO] detail:     w3-k8s-1.24.9: Total download size: 15 k
     w3-k8s-1.24.9: Total download size: 15 k
@@ -34144,18 +34212,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:29:40 [ INFO] detail:   Verifying  : epel-release-7-11.noarch                                     1/1
 2023-06-21 13:29:40 [ INFO] detail:     w3-k8s-1.24.9:   Verifying  : epel-release-7-11.noarch                                     1/1
     w3-k8s-1.24.9:   Verifying  : epel-release-7-11.noarch                                     1/1
-2023-06-21 13:29:40 [ INFO] detail: 
-2023-06-21 13:29:40 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:29:40 [ INFO] detail:
+2023-06-21 13:29:40 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:29:40 [ INFO] detail: Installed:
 2023-06-21 13:29:40 [ INFO] detail:     w3-k8s-1.24.9: Installed:
     w3-k8s-1.24.9: Installed:
 2023-06-21 13:29:40 [ INFO] detail:   epel-release.noarch 0:7-11
 2023-06-21 13:29:40 [ INFO] detail:     w3-k8s-1.24.9:   epel-release.noarch 0:7-11
     w3-k8s-1.24.9:   epel-release.noarch 0:7-11
-2023-06-21 13:29:40 [ INFO] detail: 
-2023-06-21 13:29:40 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:29:40 [ INFO] detail:
+2023-06-21 13:29:40 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:29:40 [ INFO] detail: Complete!
 2023-06-21 13:29:40 [ INFO] detail:     w3-k8s-1.24.9: Complete!
     w3-k8s-1.24.9: Complete!
@@ -34402,15 +34470,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:04 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:30:04 [ INFO] detail:     w3-k8s-1.24.9: --> Finished Dependency Resolution
     w3-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:30:05 [ INFO] detail: 
-2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:05 [ INFO] detail:
+2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:05 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9: Dependencies Resolved
     w3-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:30:05 [ INFO] detail: 
-2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:05 [ INFO] detail:
+2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:05 [ INFO] detail: ================================================================================
 2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9: ================================================================================
     w3-k8s-1.24.9: ================================================================================
@@ -34519,9 +34587,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:05 [ INFO] detail:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
 2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
     w3-k8s-1.24.9:  vim-filesystem             x86_64     2:7.4.629-8.el7_9      updates      11 k
-2023-06-21 13:30:05 [ INFO] detail: 
-2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:05 [ INFO] detail:
+2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:05 [ INFO] detail: Transaction Summary
 2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9: Transaction Summary
     w3-k8s-1.24.9: Transaction Summary
@@ -34531,9 +34599,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:05 [ INFO] detail: Install  1 Package (+30 Dependent packages)
 2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9: Install  1 Package (+30 Dependent packages)
     w3-k8s-1.24.9: Install  1 Package (+30 Dependent packages)
-2023-06-21 13:30:05 [ INFO] detail: 
-2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:05 [ INFO] detail:
+2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:05 [ INFO] detail: Total download size: 18 M
 2023-06-21 13:30:05 [ INFO] detail:     w3-k8s-1.24.9: Total download size: 18 M
     w3-k8s-1.24.9: Total download size: 18 M
@@ -34747,18 +34815,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:11 [ INFO] detail:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
 2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
     w3-k8s-1.24.9:   Verifying  : 4:perl-libs-5.16.3-299.el7_9.x86_64                        31/31
-2023-06-21 13:30:11 [ INFO] detail: 
-2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:11 [ INFO] detail:
+2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:11 [ INFO] detail: Installed:
 2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9: Installed:
     w3-k8s-1.24.9: Installed:
 2023-06-21 13:30:11 [ INFO] detail:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
 2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
     w3-k8s-1.24.9:   vim-enhanced.x86_64 2:7.4.629-8.el7_9
-2023-06-21 13:30:11 [ INFO] detail: 
-2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:11 [ INFO] detail:
+2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:11 [ INFO] detail: Dependency Installed:
 2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9: Dependency Installed:
     w3-k8s-1.24.9: Dependency Installed:
@@ -34852,9 +34920,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:11 [ INFO] detail:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
 2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
     w3-k8s-1.24.9:   vim-filesystem.x86_64 2:7.4.629-8.el7_9
-2023-06-21 13:30:11 [ INFO] detail: 
-2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:11 [ INFO] detail:
+2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:11 [ INFO] detail: Complete!
 2023-06-21 13:30:11 [ INFO] detail:     w3-k8s-1.24.9: Complete!
     w3-k8s-1.24.9: Complete!
@@ -34918,15 +34986,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:17 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9: --> Finished Dependency Resolution
     w3-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:30:17 [ INFO] detail: 
-2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:17 [ INFO] detail:
+2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:17 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9: Dependencies Resolved
     w3-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:30:17 [ INFO] detail: 
-2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:17 [ INFO] detail:
+2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:17 [ INFO] detail: ================================================================================
 2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9: ================================================================================
     w3-k8s-1.24.9: ================================================================================
@@ -34957,9 +35025,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:17 [ INFO] detail:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
 2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
     w3-k8s-1.24.9:  rsync                  x86_64       3.1.2-12.el7_9         updates       408 k
-2023-06-21 13:30:17 [ INFO] detail: 
-2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:17 [ INFO] detail:
+2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:17 [ INFO] detail: Transaction Summary
 2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9: Transaction Summary
     w3-k8s-1.24.9: Transaction Summary
@@ -34969,9 +35037,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:17 [ INFO] detail: Install  1 Package (+4 Dependent packages)
 2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9: Install  1 Package (+4 Dependent packages)
     w3-k8s-1.24.9: Install  1 Package (+4 Dependent packages)
-2023-06-21 13:30:17 [ INFO] detail: 
-2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:17 [ INFO] detail:
+2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:17 [ INFO] detail: Total download size: 4.9 M
 2023-06-21 13:30:17 [ INFO] detail:     w3-k8s-1.24.9: Total download size: 4.9 M
     w3-k8s-1.24.9: Total download size: 4.9 M
@@ -35029,18 +35097,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:19 [ INFO] detail:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
 2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
     w3-k8s-1.24.9:   Verifying  : rsync-3.1.2-12.el7_9.x86_64                                  5/5
-2023-06-21 13:30:19 [ INFO] detail: 
-2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:19 [ INFO] detail:
+2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:19 [ INFO] detail: Installed:
 2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9: Installed:
     w3-k8s-1.24.9: Installed:
 2023-06-21 13:30:19 [ INFO] detail:   git.x86_64 0:1.8.3.1-25.el7_9
 2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9:   git.x86_64 0:1.8.3.1-25.el7_9
     w3-k8s-1.24.9:   git.x86_64 0:1.8.3.1-25.el7_9
-2023-06-21 13:30:19 [ INFO] detail: 
-2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:19 [ INFO] detail:
+2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:19 [ INFO] detail: Dependency Installed:
 2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9: Dependency Installed:
     w3-k8s-1.24.9: Dependency Installed:
@@ -35050,9 +35118,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:19 [ INFO] detail:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
 2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
     w3-k8s-1.24.9:   perl-TermReadKey.x86_64 0:2.30-20.el7    rsync.x86_64 0:3.1.2-12.el7_9
-2023-06-21 13:30:19 [ INFO] detail: 
-2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:19 [ INFO] detail:
+2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:19 [ INFO] detail: Complete!
 2023-06-21 13:30:19 [ INFO] detail:     w3-k8s-1.24.9: Complete!
     w3-k8s-1.24.9: Complete!
@@ -35200,15 +35268,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:31 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9: --> Finished Dependency Resolution
     w3-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:30:31 [ INFO] detail: 
-2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:31 [ INFO] detail:
+2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:31 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9: Dependencies Resolved
     w3-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:30:31 [ INFO] detail: 
-2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:31 [ INFO] detail:
+2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:31 [ INFO] detail: ================================================================================
 2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9: ================================================================================
     w3-k8s-1.24.9: ================================================================================
@@ -35275,9 +35343,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:31 [ INFO] detail:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
 2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
     w3-k8s-1.24.9:  slirp4netns            x86_64 0.4.3-4.el7_8             extras            81 k
-2023-06-21 13:30:31 [ INFO] detail: 
-2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:31 [ INFO] detail:
+2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:31 [ INFO] detail: Transaction Summary
 2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9: Transaction Summary
     w3-k8s-1.24.9: Transaction Summary
@@ -35287,9 +35355,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:31 [ INFO] detail: Install  3 Packages (+13 Dependent packages)
 2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9: Install  3 Packages (+13 Dependent packages)
     w3-k8s-1.24.9: Install  3 Packages (+13 Dependent packages)
-2023-06-21 13:30:31 [ INFO] detail: 
-2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:30:31 [ INFO] detail:
+2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:30:31 [ INFO] detail: Total download size: 99 M
 2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9: Total download size: 99 M
     w3-k8s-1.24.9: Total download size: 99 M
@@ -35299,7 +35367,7 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:30:31 [ INFO] detail: Downloading packages:
 2023-06-21 13:30:31 [ INFO] detail:     w3-k8s-1.24.9: Downloading packages:
     w3-k8s-1.24.9: Downloading packages:
-2023-06-21 13:30:33 [DEBUG] stderr: warning: 
+2023-06-21 13:30:33 [DEBUG] stderr: warning:
 2023-06-21 13:30:33 [DEBUG] stderr: /var/cache/yum/x86_64/7/docker-ce-stable/packages/docker-ce-20.10.15-3.el7.x86_64.rpm: Header V4 RSA/SHA512 Signature, key ID 621e9f35: NOKEY
 
 2023-06-21 13:30:33 [ INFO] detail: warning: /var/cache/yum/x86_64/7/docker-ce-stable/packages/docker-ce-20.10.15-3.el7.x86_64.rpm: Header V4 RSA/SHA512 Signature, key ID 621e9f35: NOKEY
@@ -35442,9 +35510,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:31:03 [ INFO] detail:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
 2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
     w3-k8s-1.24.9:   Verifying  : libcgroup-0.41-21.el7.x86_64                               16/16
-2023-06-21 13:31:03 [ INFO] detail: 
-2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:03 [ INFO] detail:
+2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:03 [ INFO] detail: Installed:
 2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9: Installed:
     w3-k8s-1.24.9: Installed:
@@ -35454,9 +35522,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:31:03 [ INFO] detail:   docker-ce-cli.x86_64 1:20.10.15-3.el7
 2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9:   docker-ce-cli.x86_64 1:20.10.15-3.el7
     w3-k8s-1.24.9:   docker-ce-cli.x86_64 1:20.10.15-3.el7
-2023-06-21 13:31:03 [ INFO] detail: 
-2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:03 [ INFO] detail:
+2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:03 [ INFO] detail: Dependency Installed:
 2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9: Dependency Installed:
     w3-k8s-1.24.9: Dependency Installed:
@@ -35499,9 +35567,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:31:03 [ INFO] detail:   slirp4netns.x86_64 0:0.4.3-4.el7_8
 2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9:   slirp4netns.x86_64 0:0.4.3-4.el7_8
     w3-k8s-1.24.9:   slirp4netns.x86_64 0:0.4.3-4.el7_8
-2023-06-21 13:31:03 [ INFO] detail: 
-2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:03 [ INFO] detail:
+2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:03 [ INFO] detail: Complete!
 2023-06-21 13:31:03 [ INFO] detail:     w3-k8s-1.24.9: Complete!
     w3-k8s-1.24.9: Complete!
@@ -35598,15 +35666,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:31:08 [ INFO] detail: --> Finished Dependency Resolution
 2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9: --> Finished Dependency Resolution
     w3-k8s-1.24.9: --> Finished Dependency Resolution
-2023-06-21 13:31:08 [ INFO] detail: 
-2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:08 [ INFO] detail:
+2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:08 [ INFO] detail: Dependencies Resolved
 2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9: Dependencies Resolved
     w3-k8s-1.24.9: Dependencies Resolved
-2023-06-21 13:31:08 [ INFO] detail: 
-2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:08 [ INFO] detail:
+2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:08 [ INFO] detail: ================================================================================
 2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9: ================================================================================
     w3-k8s-1.24.9: ================================================================================
@@ -35652,9 +35720,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:31:08 [ INFO] detail:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
 2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
     w3-k8s-1.24.9:  socat                      x86_64     1.7.3.2-2.el7       base           290 k
-2023-06-21 13:31:08 [ INFO] detail: 
-2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:08 [ INFO] detail:
+2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:08 [ INFO] detail: Transaction Summary
 2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9: Transaction Summary
     w3-k8s-1.24.9: Transaction Summary
@@ -35664,9 +35732,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:31:08 [ INFO] detail: Install  3 Packages (+7 Dependent packages)
 2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9: Install  3 Packages (+7 Dependent packages)
     w3-k8s-1.24.9: Install  3 Packages (+7 Dependent packages)
-2023-06-21 13:31:08 [ INFO] detail: 
-2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:08 [ INFO] detail:
+2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:08 [ INFO] detail: Total download size: 66 M
 2023-06-21 13:31:08 [ INFO] detail:     w3-k8s-1.24.9: Total download size: 66 M
     w3-k8s-1.24.9: Total download size: 66 M
@@ -35754,18 +35822,18 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:31:22 [ INFO] detail:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
 2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
     w3-k8s-1.24.9:   Verifying  : libnetfilter_cthelper-1.0.0-11.el7.x86_64                  10/10
-2023-06-21 13:31:22 [ INFO] detail: 
-2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:22 [ INFO] detail:
+2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:22 [ INFO] detail: Installed:
 2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9: Installed:
     w3-k8s-1.24.9: Installed:
 2023-06-21 13:31:22 [ INFO] detail:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
 2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
     w3-k8s-1.24.9:   kubeadm.x86_64 0:1.24.9-0 kubectl.x86_64 0:1.24.9-0 kubelet.x86_64 0:1.24.9-0
-2023-06-21 13:31:22 [ INFO] detail: 
-2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:22 [ INFO] detail:
+2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:22 [ INFO] detail: Dependency Installed:
 2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9: Dependency Installed:
     w3-k8s-1.24.9: Dependency Installed:
@@ -35790,9 +35858,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:31:22 [ INFO] detail:   socat.x86_64 0:1.7.3.2-2.el7
 2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9:   socat.x86_64 0:1.7.3.2-2.el7
     w3-k8s-1.24.9:   socat.x86_64 0:1.7.3.2-2.el7
-2023-06-21 13:31:22 [ INFO] detail: 
-2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:22 [ INFO] detail:
+2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:22 [ INFO] detail: Complete!
 2023-06-21 13:31:22 [ INFO] detail:     w3-k8s-1.24.9: Complete!
     w3-k8s-1.24.9: Complete!
@@ -35874,9 +35942,9 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:31:24 [ INFO] detail: [kubelet-start] Waiting for the kubelet to perform the TLS Bootstrap...
 2023-06-21 13:31:24 [ INFO] detail:     w3-k8s-1.24.9: [kubelet-start] Waiting for the kubelet to perform the TLS Bootstrap...
     w3-k8s-1.24.9: [kubelet-start] Waiting for the kubelet to perform the TLS Bootstrap...
-2023-06-21 13:31:38 [ INFO] detail: 
-2023-06-21 13:31:38 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:38 [ INFO] detail:
+2023-06-21 13:31:38 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:38 [ INFO] detail: This node has joined the cluster:
 2023-06-21 13:31:38 [ INFO] detail:     w3-k8s-1.24.9: This node has joined the cluster:
     w3-k8s-1.24.9: This node has joined the cluster:
@@ -35886,15 +35954,15 @@ mv -f '/tmp/vagrant-network-entry-eth1-1687321764-0' '/etc/sysconfig/network-scr
 2023-06-21 13:31:38 [ INFO] detail: * The Kubelet was informed of the new secure connection details.
 2023-06-21 13:31:38 [ INFO] detail:     w3-k8s-1.24.9: * The Kubelet was informed of the new secure connection details.
     w3-k8s-1.24.9: * The Kubelet was informed of the new secure connection details.
-2023-06-21 13:31:38 [ INFO] detail: 
-2023-06-21 13:31:38 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:38 [ INFO] detail:
+2023-06-21 13:31:38 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:38 [ INFO] detail: Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
 2023-06-21 13:31:38 [ INFO] detail:     w3-k8s-1.24.9: Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
     w3-k8s-1.24.9: Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
-2023-06-21 13:31:38 [ INFO] detail: 
-2023-06-21 13:31:38 [ INFO] detail:     w3-k8s-1.24.9: 
-    w3-k8s-1.24.9: 
+2023-06-21 13:31:38 [ INFO] detail:
+2023-06-21 13:31:38 [ INFO] detail:     w3-k8s-1.24.9:
+    w3-k8s-1.24.9:
 2023-06-21 13:31:38 [DEBUG] Exit status: 0
 2023-06-21 13:31:38 [ INFO] Calling OUT action: #<Proc:0x000000010bac9ca0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.6/lib/vagrant/action/warden.rb:126 (lambda)>
 2023-06-21 13:31:38 [ INFO] Calling OUT action: #<Vagrant::Action::Builtin::Provision:0x000000010b072c20>

@@ -7,8 +7,8 @@ Vagrant.configure("2") do |config|
   # Master Nodes #
   #==============#
   M = 3 # max number of master nodes
-  N = 9 # max number of worker nodes 
-  
+  N = 9 # max number of worker nodes
+
   (1..M).each do |m|
     config.vm.define "m1#{m}-k8s" do |cfg|
       cfg.vm.box = "sysnet4admin/CentOS-k8s"
@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
         vb.customize ["modifyvm", :id, "--groups", "/k8s-MtpMST-kubespray(github_SysNet4Admin)"]
       end
       cfg.vm.host_name = "m1#{m}-k8s"
-      cfg.vm.network "private_network", ip: "192.168.1.1#{m}"
+      cfg.vm.network "private_network", ip: "192.168.2.1#{m}"
       cfg.vm.network "forwarded_port", guest: 22, host: "6001#{m}", auto_correct: true, id: "ssh"
       cfg.vm.synced_folder "../data", "/vagrant", disabled: true
       cfg.vm.provision "file", source: "auto_pass.sh", destination: "auto_pass.sh"
@@ -28,7 +28,7 @@ Vagrant.configure("2") do |config|
       if m == 1
         cfg.vm.provision "shell", path: "pre-kubespray.sh"
       end
-    end 
+    end
   end
 
   #==============#
@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
   #==============#
 
   (1..N).each do |n|
-    config.vm.define "w10#{n}-k8s" do |cfg|  
+    config.vm.define "w10#{n}-k8s" do |cfg|
       cfg.vm.box = "sysnet4admin/CentOS-k8s"
       cfg.vm.provider "virtualbox" do |vb|
         vb.name = "w10#{n}-k8s(github_SysNet4Admin)"
@@ -45,7 +45,7 @@ Vagrant.configure("2") do |config|
         vb.customize ["modifyvm", :id, "--groups", "/k8s-MtpMST-kubespray(github_SysNet4Admin)"]
       end
       cfg.vm.host_name = "w10#{n}-k8s"
-      cfg.vm.network "private_network", ip: "192.168.1.10#{n}"
+      cfg.vm.network "private_network", ip: "192.168.2.10#{n}"
       cfg.vm.network "forwarded_port", guest: 22, host: "6010#{n}", auto_correct: true, id: "ssh"
       cfg.vm.synced_folder "../data", "/vagrant", disabled: true
       cfg.vm.provision "file", source: "auto_pass.sh", destination: "auto_pass.sh"

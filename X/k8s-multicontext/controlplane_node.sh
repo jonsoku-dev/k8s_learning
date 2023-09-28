@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Create config.yaml 
+# Create config.yaml
 cat <<EOF > /tmp/kubeadm-config.yaml
 apiVersion: kubeadm.k8s.io/v1beta3
 kind: InitConfiguration
@@ -9,7 +9,7 @@ bootstrapTokens:
   description: "default kubeadm bootstrap token"
   ttl: "0"
 localAPIEndpoint:
-  advertiseAddress: 192.168.1.$1
+  advertiseAddress: 192.168.2.$1
   bindPort: 6443
 ---
 apiVersion: kubeadm.k8s.io/v1beta3
@@ -19,15 +19,15 @@ networking:
   podSubnet: 172.16.0.0/16
 EOF
 
-# Fixed Internal-IP  
+# Fixed Internal-IP
 cat <<EOF > /etc/default/kubelet
-KUBELET_EXTRA_ARGS=--node-ip=192.168.1.$1
+KUBELET_EXTRA_ARGS=--node-ip=192.168.2.$1
 EOF
 
 # init kubernetes from --config due to clusterName
 kubeadm init --config=/tmp/kubeadm-config.yaml --upload-certs
 
-# config for controlplane node only 
+# config for controlplane node only
 mkdir -p $HOME/.kube
 cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 chown $(id -u):$(id -g) $HOME/.kube/config
@@ -37,15 +37,15 @@ CNI_ADDR="https://raw.githubusercontent.com/sysnet4admin/IaC/master/k8s/CNI"
 # config for kubernetes's network
 kubectl apply -f $CNI_ADDR/172.16_net_calico_v3.26.0.yaml
 
-# install etctctl 
+# install etctctl
 curl -L  https://github.com/sysnet4admin/BB/raw/main/etcdctl/v3.4.15/etcdctl -o /usr/local/bin/etcdctl
-chmod 744 /usr/local/bin/etcdctl 
+chmod 744 /usr/local/bin/etcdctl
 
-# Change context name from original to each cluster 
+# Change context name from original to each cluster
 kubectl config rename-context kubernetes-admin@cluster-$2 $2
 
-# Change user name from original to each cluster 
-sed -i "s,kubernetes-admin,$2-admin,g" $HOME/.kube/config 
+# Change user name from original to each cluster
+sed -i "s,kubernetes-admin,$2-admin,g" $HOME/.kube/config
 
 # alias kubectl to k (for cks)
 echo 'alias k=kubectl' >> ~/.bashrc

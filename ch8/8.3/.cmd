@@ -1,7 +1,7 @@
 [root@m-k8s ~]# kubectl describe pod kube-apiserver-m-k8s -n kube-system | grep -i author -F4
     Command:
       kube-apiserver
-      --advertise-address=192.168.1.10
+      --advertise-address=192.168.2.10
       --allow-privileged=true
       --authorization-mode=Node,RBAC
       --client-ca-file=/etc/kubernetes/pki/ca.crt
@@ -42,19 +42,19 @@ CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPAC
           ctx-dev1-hoon                 kubernetes   dev1-set-hoon
 *         kubernetes-admin@kubernetes   kubernetes   kubernetes-admin
 
-k run nginx-admin --image=nginx -n dev1 <<< as a admin 
+k run nginx-admin --image=nginx -n dev1 <<< as a admin
 k run nginx-admin --image=nginx -n dev2
 
 [root@m-k8s ~]# k config use-context ctx-dev1-hoon
 
-k run nginx --image=nginx >>> error 
-k run nginx --image=nginx -n dev1 
+k run nginx --image=nginx >>> error
+k run nginx --image=nginx -n dev1
 
 k get po -n dev1
-k delete po nginx -n dev1 >>> error 
+k delete po nginx -n dev1 >>> error
 
 [root@m-k8s ~]# k config use-context kubernetes-admin@kubernetes
- 
+
 
 
 [root@m-k8s ~]# k apply -f role-gcr-dev2.yaml
@@ -71,7 +71,7 @@ CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPAC
 
 [root@m-k8s ~]# k config use-context ctx-dev2-moon
 
-k run nginx --image=nginx -n dev2 
+k run nginx --image=nginx -n dev2
 k get po -n dev2
 k delete po nginx -n dev2
 
@@ -100,12 +100,12 @@ CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPAC
 *         kubernetes-admin@kubernetes   kubernetes   kubernetes-admin
 
 
-[root@m-k8s ~]# k config use-context ctx-pod-admin 
+[root@m-k8s ~]# k config use-context ctx-pod-admin
 
 k delete po nginx -n dev1
-k create deploy dpy-nginx --image=nginx 
+k create deploy dpy-nginx --image=nginx
 k scale deploy dpy-nginx --replicas=3
-k delete deploy dpy-nginx 
+k delete deploy dpy-nginx
 
 [root@m-k8s ~]# k config use-context kubernetes-admin@kubernetes
 
